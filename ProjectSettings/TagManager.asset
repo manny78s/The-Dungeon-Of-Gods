@@ -1,0 +1,70 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Ultra
+  - Oro
+  - Bronce
+  - Rayo_Jefe
+  - Pisoton_Jefe
+  - Pinchos
+  - Enemigo
+  - "Pu\xF1o_Jefe"
+  - EnemAtacC
+  - EnemAtacL
+  - AtacC1
+  - AtacC2
+  - AtacL1
+  - AtacL2
+  - EspecialL
+  - EspecialC
+  - estocada
+  - God
+  - Ataque
+  - AtacBossProv
+  - Batalla
+  - TutoCorrer
+  - TutoSalto
+  - TutoMov
+  - TutoBajar
+  - TutoAtac
+  - Cofre
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - Ground
+  - Water
+  - UI
+  - Plataform
+  - Player
+  - Atac
+  - enemys
+  - Atac_Enemy
+  - Destruibles
+  - BossProv
+  - Coins
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0

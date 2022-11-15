@@ -1,0 +1,1328 @@
+fileFormatVersion: 2
+guid: 6dcaa6c54a43a3a44b6e39b2e6bed474
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Personaje_Dungeon 125_0
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 2465
+        width: 417
+        height: 347
+      alignment: 9
+      pivot: {x: 0.6803451, y: 0.5866903}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a65d6aaa5d73dfa4a9c1ba77d9cecab9
+      internalID: 1527135744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Personaje_Dungeon 125_1
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 2466
+        width: 576
+        height: 344
+      alignment: 9
+      pivot: {x: 0.62310153, y: 0.5812002}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae07b87843793bd45a8a3d253294ee3c
+      internalID: 1033118620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Personaje_Dungeon 125_2
+      rect:
+        serializedVersion: 2
+        x: 1056
+        y: 2473
+        width: 499
+        height: 340
+      alignment: 9
+      pivot: {x: 0.47717726, y: 0.6004861}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94ef5d90000885142b6f65da565a0f22
+      internalID: -1142964414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Personaje_Dungeon 125_3
+      rect:
+        serializedVersion: 2
+        x: 1639
+        y: 2472
+        width: 246
+        height: 339
+      alignment: 9
+      pivot: {x: 0.39969543, y: 0.6119806}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e4a1fb0d3fe3c0499a8287f6702fd2c
+      internalID: -1140018452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Personaje_Dungeon 125_4
+      rect:
+        serializedVersion: 2
+        x: 2162
+        y: 2464
+        width: 157
+        height: 349
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5411982}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d02825560369fa4bbd7c3a6f08d15e4
+      internalID: -738553313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Personaje_Dungeon 125_6
+      rect:
+        serializedVersion: 2
+        x: 2371
+        y: 2464
+        width: 156
+        height: 352
+      alignment: 9
+      pivot: {x: 0.4897586, y: 0.5453852}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 642831f75bb6ad14e8f6aaef102de9ef
+      internalID: -1865263428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Personaje_Dungeon 125_8
+      rect:
+        serializedVersion: 2
+        x: 2567
+        y: 2464
+        width: 158
+        height: 350
+      alignment: 9
+      pivot: {x: 0.5, y: 0.554774}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36ae9c0244be15241b287c8c3c079a95
+      internalID: -1221368035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Personaje_Dungeon 125_10
+      rect:
+        serializedVersion: 2
+        x: 2758
+        y: 2463
+        width: 157
+        height: 349
+      alignment: 9
+      pivot: {x: 0.5101762, y: 0.5457753}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da68bf7874221d647aac5f016a9a4466
+      internalID: -1510834949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Personaje_Dungeon 125_19
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 2077
+        width: 177
+        height: 362
+      alignment: 9
+      pivot: {x: 0.50000024, y: 0.5340178}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4217a9badef452c4e94db79b5c4eb3c6
+      internalID: 1240582394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Personaje_Dungeon 125_20
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 2080
+        width: 158
+        height: 359
+      alignment: 9
+      pivot: {x: 0.46135104, y: 0.5514545}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7fbd407dd87b074f9cd5a06b46059cd
+      internalID: 1053686545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Personaje_Dungeon 125_21
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 2080
+        width: 184
+        height: 360
+      alignment: 9
+      pivot: {x: 0.4140353, y: 0.54233605}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0138768ce6694148a1773f7c38ad6c4
+      internalID: -2122153815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Personaje_Dungeon 125_22
+      rect:
+        serializedVersion: 2
+        x: 623
+        y: 2081
+        width: 205
+        height: 361
+      alignment: 9
+      pivot: {x: 0.38548258, y: 0.53411275}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1156ec35eabe7a446800c0f18714f0ab
+      internalID: 578954469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Personaje_Dungeon 125_23
+      rect:
+        serializedVersion: 2
+        x: 881
+        y: 2085
+        width: 210
+        height: 355
+      alignment: 9
+      pivot: {x: 0.41409737, y: 0.5574363}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92cccbcea3c22004da47e4dd8c7f5d0f
+      internalID: 1141564094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Personaje_Dungeon 125_24
+      rect:
+        serializedVersion: 2
+        x: 1136
+        y: 2082
+        width: 181
+        height: 361
+      alignment: 9
+      pivot: {x: 0.4294791, y: 0.5454839}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ddb80a40c174cb4eaa870255a0c1a88
+      internalID: -1224645434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Personaje_Dungeon 125_25
+      rect:
+        serializedVersion: 2
+        x: 1370
+        y: 2080
+        width: 179
+        height: 363
+      alignment: 9
+      pivot: {x: 0.4999993, y: 0.5452326}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5a88ddac8c357840b7605b142dc7554
+      internalID: 1211843491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Personaje_Dungeon 125_26
+      rect:
+        serializedVersion: 2
+        x: 1618
+        y: 2079
+        width: 167
+        height: 365
+      alignment: 9
+      pivot: {x: 0.49999925, y: 0.54498476}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 295a33bbd19c5744989303d5f7ffc989
+      internalID: -1821747867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Personaje_Dungeon 125_27
+      rect:
+        serializedVersion: 2
+        x: 1827
+        y: 2080
+        width: 155
+        height: 362
+      alignment: 9
+      pivot: {x: 0.52429515, y: 0.55721796}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9f5da8f622f3b248a71a38046627146
+      internalID: 321132044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Personaje_Dungeon 125_28
+      rect:
+        serializedVersion: 2
+        x: 2024
+        y: 2082
+        width: 176
+        height: 361
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5365122}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0f66b56a0612fa46b3b04d9e8ca9936
+      internalID: 1598850694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Personaje_Dungeon 125_30
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 1650
+        width: 237
+        height: 353
+      alignment: 9
+      pivot: {x: 0.5000002, y: 0.5621148}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0de3d658ced1a11419cb68998bf34829
+      internalID: 1119862785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Personaje_Dungeon 125_31
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 1656
+        width: 177
+        height: 353
+      alignment: 9
+      pivot: {x: 0.45728382, y: 0.55734193}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f111a90d310378e4e80ac529575be180
+      internalID: -1176931261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Personaje_Dungeon 125_32
+      rect:
+        serializedVersion: 2
+        x: 598
+        y: 1654
+        width: 161
+        height: 362
+      alignment: 9
+      pivot: {x: 0.44065827, y: 0.5430264}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1daaaef1a51e20c4f8ac809a41b1421d
+      internalID: 491722640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Personaje_Dungeon 125_33
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 1649
+        width: 179
+        height: 371
+      alignment: 9
+      pivot: {x: 0.50000036, y: 0.5492921}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68561484ce7564b4a80ac38b56cb05ce
+      internalID: 668676373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Personaje_Dungeon 125_34
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 1667
+        width: 267
+        height: 344
+      alignment: 9
+      pivot: {x: 0.5000014, y: 0.5824244}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 739ecfd0358dea04e8e6f37e24a0491d
+      internalID: 1370303868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Personaje_Dungeon 125_35
+      rect:
+        serializedVersion: 2
+        x: 1417
+        y: 1659
+        width: 283
+        height: 331
+      alignment: 9
+      pivot: {x: 0.5000004, y: 0.54561853}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 692a1b629a1ff1d448578198acf9f90b
+      internalID: 1142159817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Personaje_Dungeon 125_36
+      rect:
+        serializedVersion: 2
+        x: 1811
+        y: 1651
+        width: 232
+        height: 347
+      alignment: 9
+      pivot: {x: 0.5000021, y: 0.58171254}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c612e3993f05f8544bffe2b6ce5b0adb
+      internalID: -733152409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Personaje_Dungeon 125_37
+      rect:
+        serializedVersion: 2
+        x: 2162
+        y: 1656
+        width: 197
+        height: 353
+      alignment: 9
+      pivot: {x: 0.40300554, y: 0.55698645}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 062e398aa05eb8542a7b6ae3560fa4fc
+      internalID: 1113590053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Personaje_Dungeon 125_38
+      rect:
+        serializedVersion: 2
+        x: 2443
+        y: 1653
+        width: 148
+        height: 356
+      alignment: 9
+      pivot: {x: 0.50000167, y: 0.5667793}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e71f917fe843bcb4284b00798e0d5758
+      internalID: 1199568170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Personaje_Dungeon 125_39
+      rect:
+        serializedVersion: 2
+        x: 2670
+        y: 1655
+        width: 162
+        height: 363
+      alignment: 9
+      pivot: {x: 0.5000015, y: 0.5403027}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdf84848062c6d447b3dd329732a20e6
+      internalID: -266712104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Personaje_Dungeon 125_40
+      rect:
+        serializedVersion: 2
+        x: 2904
+        y: 1672
+        width: 232
+        height: 338
+      alignment: 9
+      pivot: {x: 0.5078841, y: 0.5649255}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88870910453bb9742af3a89c8b0f6471
+      internalID: -1210383634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Personaje_Dungeon 125_52
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 959
+        width: 195
+        height: 352
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9743aa627e10cdc4c96bcfd76137c363
+      internalID: -1168542184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Personaje_Dungeon 125_55
+      rect:
+        serializedVersion: 2
+        x: 740
+        y: 1096
+        width: 179
+        height: 348
+      alignment: 9
+      pivot: {x: 0.47680765, y: 0.5536825}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4b2c6f8b60063149928b86966685bae
+      internalID: 746115194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Personaje_Dungeon 125_58
+      rect:
+        serializedVersion: 2
+        x: 1015
+        y: 1062
+        width: 169
+        height: 343
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5471031}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de7fb54bcbc595f418e6fdde203a6485
+      internalID: 228640242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Personaje_Dungeon 125_60
+      rect:
+        serializedVersion: 2
+        x: 2520
+        y: 970
+        width: 257
+        height: 356
+      alignment: 9
+      pivot: {x: 0.36917388, y: 0.53722084}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 423e309790bd4734a961199dc5f0c058
+      internalID: -21713893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Personaje_Dungeon 125_61
+      rect:
+        serializedVersion: 2
+        x: 2798
+        y: 969
+        width: 232
+        height: 348
+      alignment: 9
+      pivot: {x: 0.44708356, y: 0.55344224}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 957c559924a9737479cfc31dd6485683
+      internalID: -1707895183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Personaje_Dungeon 125_62
+      rect:
+        serializedVersion: 2
+        x: 3051
+        y: 963
+        width: 234
+        height: 348
+      alignment: 9
+      pivot: {x: 0.47307774, y: 0.5617069}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54495e8005565ac46b7e5afb41228f63
+      internalID: 121362619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Personaje_Dungeon 125_63
+      rect:
+        serializedVersion: 2
+        x: 3287
+        y: 962
+        width: 219
+        height: 345
+      alignment: 9
+      pivot: {x: 0.43087363, y: 0.5757972}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 458f99dc79d21b545836a0877f1fd0d8
+      internalID: 1927815421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Personaje_Dungeon 125_64
+      rect:
+        serializedVersion: 2
+        x: 3552
+        y: 960
+        width: 210
+        height: 334
+      alignment: 9
+      pivot: {x: 0.52680665, y: 0.59155345}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc52a34351d48ae4c87bfef69bf50afd
+      internalID: -1966672941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Personaje_Dungeon 125_65
+      rect:
+        serializedVersion: 2
+        x: 3776
+        y: 963
+        width: 192
+        height: 333
+      alignment: 9
+      pivot: {x: 0.5277087, y: 0.610342}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0512967ff7c956043b85fcbd6b7f5e76
+      internalID: -1648961562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Personaje_Dungeon 125_67
+      rect:
+        serializedVersion: 2
+        x: 4026
+        y: 923
+        width: 199
+        height: 294
+      alignment: 9
+      pivot: {x: 0.39407486, y: 0.75711536}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 529d98387c7e93247833ff6cf53589b0
+      internalID: 2017708298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Personaje_Dungeon 125_68
+      rect:
+        serializedVersion: 2
+        x: 4257
+        y: 922
+        width: 188
+        height: 314
+      alignment: 9
+      pivot: {x: 0.4184025, y: 0.69353974}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ee84c7bce6337c4dba0812cb839c4b5
+      internalID: 444512207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Personaje_Dungeon 125_70
+      rect:
+        serializedVersion: 2
+        x: 4483
+        y: 928
+        width: 308
+        height: 248
+      alignment: 9
+      pivot: {x: 0.4828071, y: 0.8967817}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a546270a35f860a4e9498d3efd3f8bfb
+      internalID: 645765608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Personaje_Dungeon 125_79
+      rect:
+        serializedVersion: 2
+        x: 4835
+        y: 925
+        width: 370
+        height: 252
+      alignment: 9
+      pivot: {x: 0.4719951, y: 0.8486737}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91341a999fa0f2d48bcb8fadee619431
+      internalID: 1053285834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Personaje_Dungeon 125_80
+      rect:
+        serializedVersion: 2
+        x: 2723
+        y: 493
+        width: 365
+        height: 413
+      alignment: 9
+      pivot: {x: 0.13297169, y: 0.48949635}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4847ca8dcc3b5e147b062b5aadb057a0
+      internalID: -1742497863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Personaje_Dungeon 125_81
+      rect:
+        serializedVersion: 2
+        x: 3181
+        y: 490
+        width: 409
+        height: 415
+      alignment: 9
+      pivot: {x: 0.13239346, y: 0.49371955}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2241c7c56dceeb4f992cc9377a8b3d5
+      internalID: 500340458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Personaje_Dungeon 125_84
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 510
+        width: 183
+        height: 350
+      alignment: 9
+      pivot: {x: 0.48691034, y: 0.5615967}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d3b82742374cd04098f23e564d1dd20
+      internalID: -1293658802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Personaje_Dungeon 125_85
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 516
+        width: 188
+        height: 350
+      alignment: 9
+      pivot: {x: 0.49999952, y: 0.54106426}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9deeb4869ba223f48a5f595a479d8b87
+      internalID: 109937440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Personaje_Dungeon 125_86
+      rect:
+        serializedVersion: 2
+        x: 928
+        y: 501
+        width: 176
+        height: 351
+      alignment: 9
+      pivot: {x: 0.4999979, y: 0.55665433}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef4f31e1431ae9b45af3f858f21792ce
+      internalID: 794029164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Personaje_Dungeon 125_87
+      rect:
+        serializedVersion: 2
+        x: 1179
+        y: 502
+        width: 374
+        height: 352
+      alignment: 9
+      pivot: {x: 0.43549106, y: 0.5493927}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b53b02dd82dcba842b221c2e87ec8cf4
+      internalID: -413948835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Personaje_Dungeon 125_88
+      rect:
+        serializedVersion: 2
+        x: 1593
+        y: 509
+        width: 240
+        height: 351
+      alignment: 9
+      pivot: {x: 0.6628271, y: 0.5570258}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cec0cd37173a4624e9f5d66164d57f7d
+      internalID: 1564786957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Personaje_Dungeon 125_89
+      rect:
+        serializedVersion: 2
+        x: 2374
+        y: 496
+        width: 255
+        height: 351
+      alignment: 9
+      pivot: {x: 0.49999905, y: 0.55566615}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbd3b29bca402404096c571ffa439556
+      internalID: -796347128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Personaje_Dungeon 125_91
+      rect:
+        serializedVersion: 2
+        x: 3635
+        y: 488
+        width: 414
+        height: 423
+      alignment: 9
+      pivot: {x: 0.13218622, y: 0.49381712}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57b0e843dafd346428caeba5d497e365
+      internalID: 99073179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Personaje_Dungeon 125_93
+      rect:
+        serializedVersion: 2
+        x: 4134
+        y: 497
+        width: 164
+        height: 365
+      alignment: 9
+      pivot: {x: 0.36830398, y: 0.5268262}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cf19729e0768de46b78ca41280dbba8
+      internalID: 1188248607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Personaje_Dungeon 125_28: 1598850694
+      Personaje_Dungeon 125_98: -885231793
+      Personaje_Dungeon 125_40: -1210383634
+      Personaje_Dungeon 125_23: 1141564094
+      Personaje_Dungeon 125_31: -1176931261
+      Personaje_Dungeon 125_62: 121362619
+      Personaje_Dungeon 125_39: -266712104
+      Personaje_Dungeon 125_13: -1995306872
+      Personaje_Dungeon 125_43: 1811771461
+      Personaje_Dungeon 125_71: -421097014
+      Personaje_Dungeon 125_79: 1053285834
+      Personaje_Dungeon 125_25: 1211843491
+      Personaje_Dungeon 125_81: 500340458
+      Personaje_Dungeon 125_35: 1142159817
+      Personaje_Dungeon 125_12: 286491677
+      Personaje_Dungeon 125_30: 1119862785
+      Personaje_Dungeon 125_97: -1078076922
+      Personaje_Dungeon 125_37: 1113590053
+      Personaje_Dungeon 125_89: -796347128
+      Personaje_Dungeon 125_3: -1140018452
+      Personaje_Dungeon 125_34: 1370303868
+      Personaje_Dungeon 125_76: -512307615
+      Personaje_Dungeon 125_94: -2122431811
+      Personaje_Dungeon 125_78: 795658687
+      Personaje_Dungeon 125_75: -929497200
+      Personaje_Dungeon 125_49: -317559641
+      Personaje_Dungeon 125_48: 258840732
+      Personaje_Dungeon 125_72: 1836023414
+      Personaje_Dungeon 125_38: 1199568170
+      Personaje_Dungeon 125_92: -1763471514
+      Personaje_Dungeon 125_32: 491722640
+      Personaje_Dungeon 125_5: 355789638
+      Personaje_Dungeon 125_66: -1962969849
+      Personaje_Dungeon 125_70: 645765608
+      Personaje_Dungeon 125_47: -446728561
+      Personaje_Dungeon 125_21: -2122153815
+      Personaje_Dungeon 125_11: -664840191
+      Personaje_Dungeon 125_59: -1678002676
+      Personaje_Dungeon 125_10: -1510834949
+      Personaje_Dungeon 125_80: -1742497863
+      Personaje_Dungeon 125_63: 1927815421
+      Personaje_Dungeon 125_82: 971810305
+      Personaje_Dungeon 125_87: -413948835
+      Personaje_Dungeon 125_90: 1766446160
+      Personaje_Dungeon 125_14: 155809666
+      Personaje_Dungeon 125_52: -1168542184
+      Personaje_Dungeon 125_2: -1142964414
+      Personaje_Dungeon 125_1: 1033118620
+      Personaje_Dungeon 125_4: -738553313
+      Personaje_Dungeon 125_74: 1313005050
+      Personaje_Dungeon 125_60: -21713893
+      Personaje_Dungeon 125_96: -1056827880
+      Personaje_Dungeon 125_41: 621917888
+      Personaje_Dungeon 125_16: -724920700
+      Personaje_Dungeon 125_77: 1033271501
+      Personaje_Dungeon 125_64: -1966672941
+      Personaje_Dungeon 125_99: -1112558309
+      Personaje_Dungeon 125_65: -1648961562
+      Personaje_Dungeon 125_15: -464042822
+      Personaje_Dungeon 125_7: 53681976
+      Personaje_Dungeon 125_68: 444512207
+      Personaje_Dungeon 125_61: -1707895183
+      Personaje_Dungeon 125_88: 1564786957
+      Personaje_Dungeon 125_18: 867256023
+      Personaje_Dungeon 125_55: 746115194
+      Personaje_Dungeon 125_56: -214611900
+      Personaje_Dungeon 125_44: -1636023120
+      Personaje_Dungeon 125_8: -1221368035
+      Personaje_Dungeon 125_20: 1053686545
+      Personaje_Dungeon 125_57: 1599618053
+      Personaje_Dungeon 125_33: 668676373
+      Personaje_Dungeon 125_84: -1293658802
+      Personaje_Dungeon 125_19: 1240582394
+      Personaje_Dungeon 125_93: 1188248607
+      Personaje_Dungeon 125_22: 578954469
+      Personaje_Dungeon 125_27: 321132044
+      Personaje_Dungeon 125_58: 228640242
+      Personaje_Dungeon 125_42: -325383196
+      Personaje_Dungeon 125_29: 1086329715
+      Personaje_Dungeon 125_50: 1652887700
+      Personaje_Dungeon 125_46: -1751626436
+      Personaje_Dungeon 125_83: 1597712324
+      Personaje_Dungeon 125_69: -762024477
+      Personaje_Dungeon 125_24: -1224645434
+      Personaje_Dungeon 125_53: -793677824
+      Personaje_Dungeon 125_67: 2017708298
+      Personaje_Dungeon 125_85: 109937440
+      Personaje_Dungeon 125_86: 794029164
+      Personaje_Dungeon 125_26: -1821747867
+      Personaje_Dungeon 125_36: -733152409
+      Personaje_Dungeon 125_9: -767866824
+      Personaje_Dungeon 125_17: 1917611761
+      Personaje_Dungeon 125_0: 1527135744
+      Personaje_Dungeon 125_45: -695548227
+      Personaje_Dungeon 125_73: -1457223895
+      Personaje_Dungeon 125_91: 99073179
+      Personaje_Dungeon 125_6: -1865263428
+      Personaje_Dungeon 125_100: 2036370855
+      Personaje_Dungeon 125_51: -121078575
+      Personaje_Dungeon 125_95: -343187133
+      Personaje_Dungeon 125_54: -1694661729
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

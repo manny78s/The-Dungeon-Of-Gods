@@ -1,0 +1,976 @@
+fileFormatVersion: 2
+guid: 4089b96f6462b014f875b3e368495df9
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: PNJ_ESPADAL_0
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 2122
+        width: 330
+        height: 368
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdde2224fef770a49b03fa12795429b8
+      internalID: -1012087710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PNJ_ESPADAL_2
+      rect:
+        serializedVersion: 2
+        x: 473
+        y: 2106
+        width: 522
+        height: 408
+      alignment: 9
+      pivot: {x: 0.19396517, y: 0.49362722}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47e5bec094543344f817ea924e6a78c8
+      internalID: -1934250262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PNJ_ESPADAL_3
+      rect:
+        serializedVersion: 2
+        x: 1198
+        y: 2122
+        width: 436
+        height: 353
+      alignment: 9
+      pivot: {x: 0.04167329, y: 0.5311974}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b2576f10ba935f4bb76f8f2b82ce089
+      internalID: -1932584670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PNJ_ESPADAL_4
+      rect:
+        serializedVersion: 2
+        x: 2713
+        y: 2125
+        width: 364
+        height: 354
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b09d1bce7b528d4eb184b839ca053c3
+      internalID: -262083039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PNJ_ESPADAL_5
+      rect:
+        serializedVersion: 2
+        x: 3183
+        y: 2125
+        width: 356
+        height: 362
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6233bf88e1799674e96a87da81991dd9
+      internalID: 1781692622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PNJ_ESPADAL_7
+      rect:
+        serializedVersion: 2
+        x: 3651
+        y: 2125
+        width: 357
+        height: 352
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77fc3dc0b5d8c834bbc766acf665dec8
+      internalID: 25090240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PNJ_ESPADAL_9
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 1648
+        width: 331
+        height: 366
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26ee04ee954d5d647ab0f1f8f97171d9
+      internalID: -686022273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PNJ_ESPADAL_11
+      rect:
+        serializedVersion: 2
+        x: 382
+        y: 1648
+        width: 339
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e585feed181741e45b3bbe8edc42f240
+      internalID: -1177085413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PNJ_ESPADAL_13
+      rect:
+        serializedVersion: 2
+        x: 739
+        y: 1651
+        width: 355
+        height: 357
+      alignment: 9
+      pivot: {x: 0.56797063, y: 0.50000066}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11d1ee8ce8bbc0e4c838149c8e45f355
+      internalID: 1309976855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PNJ_ESPADAL_14
+      rect:
+        serializedVersion: 2
+        x: 1107
+        y: 1651
+        width: 320
+        height: 354
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31061bda988de954cbcdf35778a515bb
+      internalID: 595530517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PNJ_ESPADAL_16
+      rect:
+        serializedVersion: 2
+        x: 1509
+        y: 1648
+        width: 386
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e062776449765f4419016ae536be708e
+      internalID: -2104798772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PNJ_ESPADAL_17
+      rect:
+        serializedVersion: 2
+        x: 1933
+        y: 1651
+        width: 338
+        height: 351
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b50e4fc8e9238145a91ed45c10352ae
+      internalID: 622645817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PNJ_ESPADAL_19
+      rect:
+        serializedVersion: 2
+        x: 2633
+        y: 1648
+        width: 355
+        height: 354
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbc94434f0774b343939d9997aa19771
+      internalID: 1055012704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PNJ_ESPADAL_21
+      rect:
+        serializedVersion: 2
+        x: 3113
+        y: 1648
+        width: 208
+        height: 354
+      alignment: 9
+      pivot: {x: 0.17278583, y: 0.48834816}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b763ab1f351ac64eb931eb3a9a1c975
+      internalID: 1692180059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PNJ_ESPADAL_22
+      rect:
+        serializedVersion: 2
+        x: 3361
+        y: 1643
+        width: 210
+        height: 349
+      alignment: 9
+      pivot: {x: 0.1366176, y: 0.51772887}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 351b704b6c91dfc4f9d3860d6bc6a22d
+      internalID: 461114764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PNJ_ESPADAL_23
+      rect:
+        serializedVersion: 2
+        x: 3632
+        y: 1645
+        width: 235
+        height: 280
+      alignment: 9
+      pivot: {x: 0.13139337, y: 0.6325858}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4809aa3adc3f994184fa99f623280e0
+      internalID: -1765386890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PNJ_ESPADAL_24
+      rect:
+        serializedVersion: 2
+        x: 3931
+        y: 1645
+        width: 240
+        height: 285
+      alignment: 9
+      pivot: {x: 0.13907166, y: 0.60854965}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b87f168a7d6c37b4fb6a50cb6f9725d6
+      internalID: 1671995245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PNJ_ESPADAL_25
+      rect:
+        serializedVersion: 2
+        x: 4285
+        y: 1643
+        width: 242
+        height: 285
+      alignment: 9
+      pivot: {x: 0.16762373, y: 0.6157865}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f0e2a20d34731f43929e3198d49b5d0
+      internalID: 678572791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PNJ_ESPADAL_26
+      rect:
+        serializedVersion: 2
+        x: 4682
+        y: 1622
+        width: 362
+        height: 304
+      alignment: 9
+      pivot: {x: 0.23222494, y: 0.64247173}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea604349ff899694fb597f5e265da005
+      internalID: -8417984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PNJ_ESPADAL_30
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 1172
+        width: 309
+        height: 388
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d42ddc3fc6b4de4c8ef5bef188f9682
+      internalID: -565822894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PNJ_ESPADAL_31
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 1235
+        width: 338
+        height: 321
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9def5b6213a84c84d94481c9a64e75d4
+      internalID: 1978449295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PNJ_ESPADAL_32
+      rect:
+        serializedVersion: 2
+        x: 755
+        y: 1176
+        width: 293
+        height: 381
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b820bfb30f443d0458ed007fbce1bf95
+      internalID: -511902923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PNJ_ESPADAL_33
+      rect:
+        serializedVersion: 2
+        x: 1126
+        y: 1171
+        width: 287
+        height: 410
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c6c7a935ce14c94ba01a2546ae650f2
+      internalID: 1359944879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PNJ_ESPADAL_34
+      rect:
+        serializedVersion: 2
+        x: 1483
+        y: 1218
+        width: 338
+        height: 334
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7446bf19b3cb05b429dc6c19ed011a43
+      internalID: -2048782508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PNJ_ESPADAL_35
+      rect:
+        serializedVersion: 2
+        x: 1882
+        y: 1174
+        width: 315
+        height: 357
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55cae2a52af30354b867cb7aafefe2d3
+      internalID: -1032800298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PNJ_ESPADAL_37
+      rect:
+        serializedVersion: 2
+        x: 3672
+        y: 1080
+        width: 445
+        height: 355
+      alignment: 9
+      pivot: {x: 0.08346921, y: 0.53244936}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d58c77261f9df84090043d18b21b5e4
+      internalID: 376082038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PNJ_ESPADAL_38
+      rect:
+        serializedVersion: 2
+        x: 4303
+        y: 1078
+        width: 372
+        height: 497
+      alignment: 9
+      pivot: {x: 0.09968944, y: 0.3762821}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b26317f42fdfcf749aa41cdaa4cdf59d
+      internalID: 1649572378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PNJ_ESPADAL_39
+      rect:
+        serializedVersion: 2
+        x: 4755
+        y: 1076
+        width: 385
+        height: 449
+      alignment: 9
+      pivot: {x: 0.12568359, y: 0.422969}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31211dabb9d69904abc7ca1e6989a4c9
+      internalID: 1386322712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PNJ_ESPADAL_41
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 779
+        width: 359
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76793c59bbfbef6468e62fc50b013690
+      internalID: -1938689410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PNJ_ESPADAL_43
+      rect:
+        serializedVersion: 2
+        x: 1158
+        y: 638
+        width: 358
+        height: 400
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 926049bdbb21e3745a6aaf543edab1a5
+      internalID: -883463884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PNJ_ESPADAL_47
+      rect:
+        serializedVersion: 2
+        x: 3228
+        y: 361
+        width: 535
+        height: 496
+      alignment: 9
+      pivot: {x: 0.12782016, y: 0.38686174}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79ed8ce4e49e37e4aaaa7b5cbac3aa2c
+      internalID: -172385116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PNJ_ESPADAL_53
+      rect:
+        serializedVersion: 2
+        x: 2266
+        y: 358
+        width: 343
+        height: 400
+      alignment: 9
+      pivot: {x: 0.47926655, y: 0.49209824}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba004457a1722b346842a8bd6f6a87d0
+      internalID: -782593731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PNJ_ESPADAL_55
+      rect:
+        serializedVersion: 2
+        x: 2671
+        y: 361
+        width: 397
+        height: 348
+      alignment: 9
+      pivot: {x: 0.48119932, y: 0.5581046}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07f2497b4f8da0842a8a171ae05e218b
+      internalID: -2109680176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PNJ_ESPADAL_57
+      rect:
+        serializedVersion: 2
+        x: 3902
+        y: 351
+        width: 488
+        height: 478
+      alignment: 9
+      pivot: {x: 0.05095335, y: 0.42536396}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d0224f9ca1a99e418c60f04753d9e88
+      internalID: -1246648571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PNJ_ESPADAL_60
+      rect:
+        serializedVersion: 2
+        x: 4614
+        y: 361
+        width: 480
+        height: 306
+      alignment: 9
+      pivot: {x: 0.068310544, y: 0.64142364}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb1784455fca813409092afae192ce71
+      internalID: -511141275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PNJ_ESPADAL_61
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 73
+        width: 370
+        height: 352
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2862eb1b9130b29479b6ed3f7da9311f
+      internalID: -2076484057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PNJ_ESPADAL_62
+      rect:
+        serializedVersion: 2
+        x: 568
+        y: 79
+        width: 374
+        height: 351
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03b853b1d31a8d34b98ee010f3d520e3
+      internalID: 1226272629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      PNJ_ESPADAL_5: 1781692622
+      PNJ_ESPADAL_14: 595530517
+      PNJ_ESPADAL_32: -511902923
+      PNJ_ESPADAL_16: -2104798772
+      PNJ_ESPADAL_56: 593691192
+      PNJ_ESPADAL_54: 49975674
+      PNJ_ESPADAL_24: 1671995245
+      PNJ_ESPADAL_40: -1818825872
+      PNJ_ESPADAL_19: 1055012704
+      PNJ_ESPADAL_62: 1226272629
+      PNJ_ESPADAL_22: 461114764
+      PNJ_ESPADAL_0: -1012087710
+      PNJ_ESPADAL_53: -782593731
+      PNJ_ESPADAL_12: 1036495846
+      PNJ_ESPADAL_31: 1978449295
+      PNJ_ESPADAL_30: -565822894
+      PNJ_ESPADAL_45: 126512005
+      PNJ_ESPADAL_50: -1959600226
+      PNJ_ESPADAL_18: -1890745116
+      PNJ_ESPADAL_59: -1572920713
+      PNJ_ESPADAL_27: 72402552
+      PNJ_ESPADAL_63: 852633883
+      PNJ_ESPADAL_20: -38203162
+      PNJ_ESPADAL_29: -839747982
+      PNJ_ESPADAL_6: -283823608
+      PNJ_ESPADAL_23: -1765386890
+      PNJ_ESPADAL_7: 25090240
+      PNJ_ESPADAL_21: 1692180059
+      PNJ_ESPADAL_52: -80557234
+      PNJ_ESPADAL_28: 579744964
+      PNJ_ESPADAL_2: -1934250262
+      PNJ_ESPADAL_51: 1642764184
+      PNJ_ESPADAL_10: -937898955
+      PNJ_ESPADAL_48: 341360820
+      PNJ_ESPADAL_37: 376082038
+      PNJ_ESPADAL_43: -883463884
+      PNJ_ESPADAL_61: -2076484057
+      PNJ_ESPADAL_15: 1825584917
+      PNJ_ESPADAL_3: -1932584670
+      PNJ_ESPADAL_9: -686022273
+      PNJ_ESPADAL_1: 1721831368
+      PNJ_ESPADAL_46: 632278081
+      PNJ_ESPADAL_4: -262083039
+      PNJ_ESPADAL_17: 622645817
+      PNJ_ESPADAL_33: 1359944879
+      PNJ_ESPADAL_34: -2048782508
+      PNJ_ESPADAL_8: 565994680
+      PNJ_ESPADAL_42: 1527249487
+      PNJ_ESPADAL_49: -8035326
+      PNJ_ESPADAL_13: 1309976855
+      PNJ_ESPADAL_25: 678572791
+      PNJ_ESPADAL_47: -172385116
+      PNJ_ESPADAL_35: -1032800298
+      PNJ_ESPADAL_41: -1938689410
+      PNJ_ESPADAL_60: -511141275
+      PNJ_ESPADAL_58: 1238244499
+      PNJ_ESPADAL_11: -1177085413
+      PNJ_ESPADAL_44: -361569146
+      PNJ_ESPADAL_39: 1386322712
+      PNJ_ESPADAL_55: -2109680176
+      PNJ_ESPADAL_38: 1649572378
+      PNJ_ESPADAL_26: -8417984
+      PNJ_ESPADAL_57: -1246648571
+      PNJ_ESPADAL_36: -122476559
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

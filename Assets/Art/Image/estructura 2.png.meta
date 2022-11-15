@@ -1,0 +1,520 @@
+fileFormatVersion: 2
+guid: ad540d4cb6cf1174487db6d487b8e716
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: estructura 1_0
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 1454
+        width: 835
+        height: 798
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4894c42a17a586744ad8416f613c532c
+      internalID: 1353396599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: estructura 1_1
+      rect:
+        serializedVersion: 2
+        x: 1082
+        y: 1399
+        width: 264
+        height: 787
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1ef0d8a6cbbe4a4f8b2bdd004f467ef
+      internalID: 2102853382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: estructura 1_2
+      rect:
+        serializedVersion: 2
+        x: 1482
+        y: 1937
+        width: 491
+        height: 252
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee61b72a71a91854b875482e621bdce6
+      internalID: 699743080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: estructura 1_3
+      rect:
+        serializedVersion: 2
+        x: 2033
+        y: 1412
+        width: 1074
+        height: 828
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d44febacec05ea144b70dd20dc0ebf1d
+      internalID: -1344538546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: estructura 1_4
+      rect:
+        serializedVersion: 2
+        x: 3211
+        y: 1419
+        width: 1068
+        height: 820
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71ed6e150346db640b02baf360b04887
+      internalID: -334963547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: estructura 1_5
+      rect:
+        serializedVersion: 2
+        x: 1482
+        y: 1488
+        width: 471
+        height: 260
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a583ee5b2c8e78e4ab65866c40826ac9
+      internalID: -274896730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: estructura 1_7
+      rect:
+        serializedVersion: 2
+        x: 2047
+        y: 1042
+        width: 1110
+        height: 264
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 613a2d68b166996478f3f622b2535665
+      internalID: 881485989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: estructura 1_8
+      rect:
+        serializedVersion: 2
+        x: 3354
+        y: 1168
+        width: 1089
+        height: 130
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fec2ba8607bf5f84da28491f1a153aff
+      internalID: -1449225869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: estructura 1_10
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 624
+        width: 328
+        height: 565
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a4bc336ee9482b478ff0a3449b81f0d
+      internalID: -1150250199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: estructura 1_11
+      rect:
+        serializedVersion: 2
+        x: 868
+        y: 556
+        width: 392
+        height: 591
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -77, y: 282.5}
+        - {x: -127, y: 255.5}
+        - {x: -164, y: 210.5}
+        - {x: -189, y: 142.5}
+        - {x: -196, y: -290.5}
+        - {x: -132, y: -288.5}
+        - {x: -131, y: -210.5}
+        - {x: -127, y: 138.5}
+        - {x: -116, y: 178.5}
+        - {x: -96, y: 205.5}
+        - {x: -46, y: 236.5}
+        - {x: 38, y: 236.5}
+        - {x: 96, y: 210.5}
+        - {x: 124, y: 152.5}
+        - {x: 126, y: -50.5}
+        - {x: 129, y: -292.5}
+        - {x: 195, y: -292.5}
+        - {x: 192, y: 160.5}
+        - {x: 149, y: 239.5}
+        - {x: 50, y: 288.5}
+        - {x: -6, y: 295.5}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5ff53815b38c174e9e782f7233242d6
+      internalID: 1322084264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: estructura 1_12
+      rect:
+        serializedVersion: 2
+        x: 1461
+        y: 735
+        width: 330
+        height: 361
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ef8a616702b38d4d80c5f7cfb546d96
+      internalID: 1561786113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: estructura 1_13
+      rect:
+        serializedVersion: 2
+        x: 3202
+        y: 871
+        width: 189
+        height: 201
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66aabd76f2e5e004ba143ed276217412
+      internalID: 1813273225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: estructura 1_14
+      rect:
+        serializedVersion: 2
+        x: 3592
+        y: 867
+        width: 168
+        height: 205
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7017d606de79b04c923eb537a256688
+      internalID: -968958769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: estructura 1_15
+      rect:
+        serializedVersion: 2
+        x: 3897
+        y: 880
+        width: 202
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f0d11341e7ae48459867e1a52ba14b6
+      internalID: -1704332595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: estructura 1_16
+      rect:
+        serializedVersion: 2
+        x: 4360
+        y: 224
+        width: 204
+        height: 841
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbb10a63dbbc43647b69d6cb1ea62986
+      internalID: 603054566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: estructura 1_17
+      rect:
+        serializedVersion: 2
+        x: 3512
+        y: 332
+        width: 497
+        height: 439
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf78d18a484b478438ea1d6c507dc2dd
+      internalID: 1739820970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: estructura 1_6
+      rect:
+        serializedVersion: 2
+        x: 4117
+        y: 540
+        width: 210
+        height: 263
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e85145b611f7a0645b77d29b6704092c
+      internalID: -789013504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      estructura 1_14: -968958769
+      estructura 1_8: -1449225869
+      estructura 1_16: 603054566
+      estructura 1_3: -1344538546
+      estructura 1_9: -1187665390
+      estructura 1_2: 699743080
+      estructura 1_4: -334963547
+      estructura 1_0: 1353396599
+      estructura 1_5: -274896730
+      estructura 1_10: -1150250199
+      estructura 1_18: 742587321
+      estructura 1_15: -1704332595
+      estructura 1_1: 2102853382
+      estructura 1_12: 1561786113
+      estructura 1_6: -789013504
+      estructura 1_13: 1813273225
+      estructura 1_7: 881485989
+      estructura 1_17: 1739820970
+      estructura 1_11: 1322084264
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
