@@ -106,13 +106,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Assents_Dungueon__0
+      name: Assents_Dungueon__1
       rect:
         serializedVersion: 2
-        x: 169
-        y: 410
-        width: 310
-        height: 568
+        x: 749
+        y: 737
+        width: 55
+        height: 189
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -120,8 +120,50 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bbdd2ba193e40d2438d9ff585de52523
-      internalID: -1652579716
+      spriteID: c0667a86d6db0c44ab51384fc2f51ec1
+      internalID: 1503592330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Assents_Dungueon__2
+      rect:
+        serializedVersion: 2
+        x: 975
+        y: 870
+        width: 101
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4dc81e314372d59499c8f7d26c6aa82b
+      internalID: 1098093413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Assents_Dungueon__4
+      rect:
+        serializedVersion: 2
+        x: 868
+        y: 542
+        width: 306
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4df7719a9718ca94c8a4c52a79e8d2f6
+      internalID: -1811434182
       vertices: []
       indices: 
       edges: []

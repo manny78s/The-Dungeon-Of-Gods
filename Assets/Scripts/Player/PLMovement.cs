@@ -11,6 +11,8 @@ public class PLMovement : MonoBehaviour
     public Animator PL_Anim;
     public Transform PL_Scale;
     [SerializeField] public bool IcanMove = true;
+    [SerializeField] private bool InColChest;
+    [SerializeField] private Animator ChestAnim;
 
     [Space]
 
@@ -182,6 +184,31 @@ public class PLMovement : MonoBehaviour
         else
         {
             PL_Anim.SetBool("Ground", false);
+        }
+    }
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        if(other.gameObject.tag=="Cofre")
+        {
+            InColChest = true;
+        }
+    }
+    private void OnTriggerStay2D(Collider2D other)
+    {
+        if(other.gameObject.tag=="Cofre")
+        {
+            if (Input.GetMouseButton(1) && InColChest==true)
+            {
+                ChestAnim.SetBool("Active", true);
+            }
+
+        }
+    }
+    private void OnTriggerExit2D(Collider2D collision)
+    {
+        if(collision.gameObject.tag=="Cofre")
+        {
+            InColChest=false;
         }
     }
 }

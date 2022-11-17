@@ -11,7 +11,7 @@ public class Coin : MonoBehaviour
     private void Start()
     {
         CoinRb=GetComponent<Rigidbody2D>();
-        CoinRb.AddForce(new Vector2(Random.Range(-3f, 3f), 2f), ForceMode2D.Impulse);
+        CoinRb.AddForce(new Vector2(Random.Range(-3f, 3f), 5f), ForceMode2D.Impulse);
     }
     /*public void Splash()
     {
