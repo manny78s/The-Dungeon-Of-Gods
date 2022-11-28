@@ -108,7 +108,7 @@ NavMeshSettings:
     agentTypeID: 0
     agentRadius: 0.5
     agentHeight: 2
-    agentSlope: 40.4
+    agentSlope: 45
     agentClimb: 0.4
     ledgeDropHeight: 0
     maxJumpAcrossDistance: 0
@@ -26110,8 +26110,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 711934810}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.60647583, y: -0.1842, z: 0.602231}
-  m_LocalScale: {x: 1.119, y: 1.1973959, z: 1}
+  m_LocalPosition: {x: -0.60647583, y: -0.25190008, z: 0.602231}
+  m_LocalScale: {x: 1.119, y: 1.2199094, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1505050614}
@@ -32422,14 +32422,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 926854236}
-  m_LocalRotation: {x: -0, y: -0, z: 0.042024553, w: 0.9991166}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -327.12, y: 6.9800005, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 373379920}
   m_RootOrder: -1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 4.817}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &928237841
 GameObject:
   m_ObjectHideFlags: 0
@@ -44537,7 +44537,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1389008700}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 197.31, y: 0.1334, z: 0.10870994}
+  m_LocalPosition: {x: 197.31, y: 0.18, z: 0.10870994}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -44590,7 +44590,7 @@ SpriteRenderer:
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 2
-  m_Size: {x: 95.10442, y: 1.2304792}
+  m_Size: {x: 95.10442, y: 1.3237759}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -77624,22 +77624,6 @@ PrefabInstance:
       propertyPath: PatrolPoint.Array.data[1]
       value: 
       objectReference: {fileID: 1763575970}
-    - target: {fileID: 5462112981239184768, guid: b200569e09234eb41b396925a377264d, type: 3}
-      propertyPath: m_SpriteTilingProperty.pivot.x
-      value: 0.28774348
-      objectReference: {fileID: 0}
-    - target: {fileID: 5462112981239184768, guid: b200569e09234eb41b396925a377264d, type: 3}
-      propertyPath: m_SpriteTilingProperty.pivot.y
-      value: 0.48126397
-      objectReference: {fileID: 0}
-    - target: {fileID: 5462112981239184768, guid: b200569e09234eb41b396925a377264d, type: 3}
-      propertyPath: m_SpriteTilingProperty.oldSize.x
-      value: 2.21
-      objectReference: {fileID: 0}
-    - target: {fileID: 5462112981239184768, guid: b200569e09234eb41b396925a377264d, type: 3}
-      propertyPath: m_SpriteTilingProperty.oldSize.y
-      value: 3.46
-      objectReference: {fileID: 0}
     - target: {fileID: 5462112981239184792, guid: b200569e09234eb41b396925a377264d, type: 3}
       propertyPath: m_Name
       value: Esqueleto_C1
@@ -77649,20 +77633,12 @@ PrefabInstance:
       value: -1
       objectReference: {fileID: 0}
     - target: {fileID: 5462112981239184797, guid: b200569e09234eb41b396925a377264d, type: 3}
-      propertyPath: m_LocalScale.x
-      value: -0.9885
-      objectReference: {fileID: 0}
-    - target: {fileID: 5462112981239184797, guid: b200569e09234eb41b396925a377264d, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 0.8879
-      objectReference: {fileID: 0}
-    - target: {fileID: 5462112981239184797, guid: b200569e09234eb41b396925a377264d, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 143.41
+      value: 142.839
       objectReference: {fileID: 0}
     - target: {fileID: 5462112981239184797, guid: b200569e09234eb41b396925a377264d, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -3.06
+      value: -4.111
       objectReference: {fileID: 0}
     - target: {fileID: 5462112981239184797, guid: b200569e09234eb41b396925a377264d, type: 3}
       propertyPath: m_LocalPosition.z
@@ -77696,10 +77672,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 5462112981239184798, guid: b200569e09234eb41b396925a377264d, type: 3}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: 1173106009, guid: be4c5ab9c37b55144b95eeec272c38e9, type: 3}
     - target: {fileID: 6961196110751912624, guid: b200569e09234eb41b396925a377264d, type: 3}
       propertyPath: PnjScript
       value: 
