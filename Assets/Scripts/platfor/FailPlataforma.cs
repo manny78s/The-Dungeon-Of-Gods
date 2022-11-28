@@ -6,6 +6,7 @@ public class FailPlataforma : MonoBehaviour
 {
     Rigidbody2D rb;
     float fallDelay = 2f;
+    private Animator Anim;
     // Start is called before the first frame update
     void Start()
     {
@@ -27,7 +28,11 @@ public class FailPlataforma : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Player"))
         {
-            StartCoroutine(Fall());
+            Anim.SetBool("Destruir",true);
         }
+    }
+    public void ConsPlat()
+    {
+        Anim.SetBool("Destruir", false);
     }
 }
