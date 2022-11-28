@@ -1,0 +1,22 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class Key : MonoBehaviour
+{
+    public int KeyAmount;
+    void Start()
+    {
+        
+    }
+
+    // Update is called once per frame
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        if(other.tag == "Key")
+        {
+            KeyAmount += 1;
+            Destroy(other.gameObject);
+        }
+    }
+}
