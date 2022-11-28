@@ -11795,25 +11795,9 @@ PrefabInstance:
     m_TransformParent: {fileID: 607014070}
     m_Modifications:
     - target: {fileID: 3182109502104453720, guid: b200569e09234eb41b396925a377264d, type: 3}
-      propertyPath: NavAge
-      value: 
-      objectReference: {fileID: 287930965}
-    - target: {fileID: 3182109502104453720, guid: b200569e09234eb41b396925a377264d, type: 3}
       propertyPath: Player
       value: 
       objectReference: {fileID: 866411947}
-    - target: {fileID: 3182109502104453720, guid: b200569e09234eb41b396925a377264d, type: 3}
-      propertyPath: StopDis
-      value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 3182109502104453720, guid: b200569e09234eb41b396925a377264d, type: 3}
-      propertyPath: Enem_Anim
-      value: 
-      objectReference: {fileID: 287930964}
-    - target: {fileID: 3182109502104453720, guid: b200569e09234eb41b396925a377264d, type: 3}
-      propertyPath: PatrolPoint.Array.size
-      value: 2
-      objectReference: {fileID: 0}
     - target: {fileID: 3182109502104453720, guid: b200569e09234eb41b396925a377264d, type: 3}
       propertyPath: PatrolPoint.Array.data[0]
       value: 
@@ -11822,18 +11806,6 @@ PrefabInstance:
       propertyPath: PatrolPoint.Array.data[1]
       value: 
       objectReference: {fileID: 1114579670}
-    - target: {fileID: 3911233333538698865, guid: b200569e09234eb41b396925a377264d, type: 3}
-      propertyPath: target
-      value: 
-      objectReference: {fileID: 228748943}
-    - target: {fileID: 5462112981239184768, guid: b200569e09234eb41b396925a377264d, type: 3}
-      propertyPath: m_Offset.x
-      value: -4.76
-      objectReference: {fileID: 0}
-    - target: {fileID: 5462112981239184768, guid: b200569e09234eb41b396925a377264d, type: 3}
-      propertyPath: m_IsTrigger
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 5462112981239184792, guid: b200569e09234eb41b396925a377264d, type: 3}
       propertyPath: m_Name
       value: Esqueleto_C1 (4)
@@ -11882,29 +11854,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 5462112981239184798, guid: b200569e09234eb41b396925a377264d, type: 3}
-      propertyPath: m_Color.b
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 5462112981239184798, guid: b200569e09234eb41b396925a377264d, type: 3}
-      propertyPath: m_Color.g
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 5462112981239184798, guid: b200569e09234eb41b396925a377264d, type: 3}
-      propertyPath: m_Color.r
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 6961196110751912624, guid: b200569e09234eb41b396925a377264d, type: 3}
       propertyPath: PnjScript
       value: 
       objectReference: {fileID: 1183008817}
-    - target: {fileID: 9081306180788615029, guid: b200569e09234eb41b396925a377264d, type: 3}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents:
-    - {fileID: 7665409582390001192, guid: b200569e09234eb41b396925a377264d, type: 3}
-    - {fileID: 1750973288398659281, guid: b200569e09234eb41b396925a377264d, type: 3}
+    m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: b200569e09234eb41b396925a377264d, type: 3}
 --- !u!4 &287930962 stripped
@@ -11912,38 +11866,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 5462112981239184797, guid: b200569e09234eb41b396925a377264d, type: 3}
   m_PrefabInstance: {fileID: 287930961}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &287930963 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 5462112981239184792, guid: b200569e09234eb41b396925a377264d, type: 3}
-  m_PrefabInstance: {fileID: 287930961}
-  m_PrefabAsset: {fileID: 0}
---- !u!95 &287930964 stripped
-Animator:
-  m_CorrespondingSourceObject: {fileID: 5462112981239184799, guid: b200569e09234eb41b396925a377264d, type: 3}
-  m_PrefabInstance: {fileID: 287930961}
-  m_PrefabAsset: {fileID: 0}
---- !u!195 &287930965
-NavMeshAgent:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 287930963}
-  m_Enabled: 1
-  m_AgentTypeID: 0
-  m_Radius: 8.47
-  m_Speed: 5.1
-  m_Acceleration: 3
-  avoidancePriority: 50
-  m_AngularSpeed: 0
-  m_StoppingDistance: 0
-  m_AutoTraverseOffMeshLink: 1
-  m_AutoBraking: 1
-  m_AutoRepath: 1
-  m_Height: 2.5671923
-  m_BaseOffset: 1.2835962
-  m_WalkableMask: 4294967295
-  m_ObstacleAvoidanceType: 4
 --- !u!1 &288800972
 GameObject:
   m_ObjectHideFlags: 0
@@ -76403,6 +76325,22 @@ PrefabInstance:
       propertyPath: PatrolPoint.Array.data[1]
       value: 
       objectReference: {fileID: 1763575970}
+    - target: {fileID: 5462112981239184768, guid: b200569e09234eb41b396925a377264d, type: 3}
+      propertyPath: m_Size.x
+      value: 2.8191986
+      objectReference: {fileID: 0}
+    - target: {fileID: 5462112981239184768, guid: b200569e09234eb41b396925a377264d, type: 3}
+      propertyPath: m_Size.y
+      value: 2.9464107
+      objectReference: {fileID: 0}
+    - target: {fileID: 5462112981239184768, guid: b200569e09234eb41b396925a377264d, type: 3}
+      propertyPath: m_Offset.x
+      value: -0.008583069
+      objectReference: {fileID: 0}
+    - target: {fileID: 5462112981239184768, guid: b200569e09234eb41b396925a377264d, type: 3}
+      propertyPath: m_Offset.y
+      value: 0.1872881
+      objectReference: {fileID: 0}
     - target: {fileID: 5462112981239184792, guid: b200569e09234eb41b396925a377264d, type: 3}
       propertyPath: m_Name
       value: Esqueleto_C1
