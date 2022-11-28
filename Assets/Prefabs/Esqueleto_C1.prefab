@@ -41,7 +41,6 @@ GameObject:
   m_Component:
   - component: {fileID: 2258051133762996711}
   - component: {fileID: 1387433020392811553}
-  - component: {fileID: 1750973288398659281}
   m_Layer: 9
   m_Name: Rango
   m_TagString: Untagged
@@ -90,21 +89,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 2.5519867, y: 2.270644}
   m_EdgeRadius: 0
---- !u!114 &1750973288398659281
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3817584241611100386}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 490668e1508d13940a7ec9ce78ac1976, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  ani: {fileID: 5462112981239184799}
-  enemigo: {fileID: 0}
-  RangoBox: {fileID: 0}
 --- !u!1 &4123280507201573985
 GameObject:
   m_ObjectHideFlags: 0
@@ -151,8 +135,8 @@ GameObject:
   - component: {fileID: 6961196110751912624}
   - component: {fileID: 5462112981239184769}
   - component: {fileID: 5462112981239184768}
-  - component: {fileID: 7665409582390001192}
   - component: {fileID: 593223623109979462}
+  - component: {fileID: 1958372963}
   m_Layer: 9
   m_Name: Esqueleto_C1
   m_TagString: Enemigo
@@ -264,8 +248,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 815fa6cc2a1982348859da0167f3bb18, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  NavAge: {fileID: 0}
-  Enem_Anim: {fileID: 0}
+  NavAge: {fileID: 1958372963}
+  Enem_Anim: {fileID: 5462112981239184799}
   NorSpeed: 5
   RunSpeed: 7
   AtacSpeed: 2
@@ -278,8 +262,10 @@ MonoBehaviour:
   PL:
     serializedVersion: 2
     m_Bits: 128
-  PatrolPoint: []
-  StopDis: 1
+  PatrolPoint:
+  - {fileID: 0}
+  - {fileID: 0}
+  StopDis: 4
   Espera: 0
 --- !u!114 &6961196110751912624
 MonoBehaviour:
@@ -298,6 +284,8 @@ MonoBehaviour:
   DropScript: {fileID: 0}
   Life: 50
   Shield: 0
+  inmuneTime: 0
+  Inm: 0
 --- !u!50 &5462112981239184769
 Rigidbody2D:
   serializedVersion: 4
@@ -332,7 +320,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.009132385, y: -0.07834911}
+  m_Offset: {x: 0.009132385, y: 0.13806331}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.49548876, y: 0.5496154}
@@ -343,24 +331,8 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 2.8191986, y: 2.9922357}
+  m_Size: {x: 2.8191986, y: 2.8479612}
   m_EdgeRadius: 0
---- !u!70 &7665409582390001192
-CapsuleCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5462112981239184792}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0.22774506, y: -0.1414038}
-  m_Size: {x: 2.2384033, y: 2.85}
-  m_Direction: 0
 --- !u!114 &593223623109979462
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -378,6 +350,28 @@ MonoBehaviour:
   DropRate: 100
   MinDrop: 2
   MaxDrop: 4
+--- !u!195 &1958372963
+NavMeshAgent:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5462112981239184792}
+  m_Enabled: 1
+  m_AgentTypeID: 0
+  m_Radius: 1.33
+  m_Speed: 4.23
+  m_Acceleration: 3
+  avoidancePriority: 50
+  m_AngularSpeed: 0
+  m_StoppingDistance: 0
+  m_AutoTraverseOffMeshLink: 1
+  m_AutoBraking: 1
+  m_AutoRepath: 1
+  m_Height: 3
+  m_BaseOffset: 1.2835962
+  m_WalkableMask: 4294967295
+  m_ObstacleAvoidanceType: 4
 --- !u!1 &5462112982587752767
 GameObject:
   m_ObjectHideFlags: 0

@@ -1,7 +1,6 @@
 using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.AI;
+
 
 public class LifeEnem : MonoBehaviour
 {
@@ -16,6 +15,8 @@ public class LifeEnem : MonoBehaviour
     [Header("Stats")]
     [SerializeField] public float Life;
     [SerializeField] public float Shield;
+    [SerializeField] private float inmuneTime;
+    [SerializeField] private bool Inm;
 
     void Start()
     {
@@ -34,19 +35,21 @@ public class LifeEnem : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        if(other.gameObject.tag == "AtacC1")
+        if(other.gameObject.tag == "AtacC1" && !Inm)
         {
             Life -= PnjScript.DañoC1;
             Enem_Anim.SetBool("Dañado", true);
+            StartCoroutine(Inmo());
             if(Life <= 0)
             {
                 Enem_Anim.SetBool("Dead", true);
             }
         }
-        if(other.gameObject.tag == "AtacC2")
+        if(other.gameObject.tag == "AtacC2" && !Inm)
         {
             Life -= PnjScript.DañoC2;
             Enem_Anim.SetBool("Dañado", true);
+            StartCoroutine(Inmo());
             if (Life <= 0)
             {
                 Enem_Anim.SetBool("Dead", true);
@@ -56,6 +59,7 @@ public class LifeEnem : MonoBehaviour
         {
             Life -= PnjScript.DañoEspC;
             Enem_Anim.SetBool("Dañado", true);
+
             if (Life <= 0)
             {
                 Enem_Anim.SetBool("Dead", true);
@@ -68,6 +72,12 @@ public class LifeEnem : MonoBehaviour
         Enem_Anim.SetBool("Dead", false);
         this.gameObject.SetActive(false);
         DropScript.Drop();
+    }
+    IEnumerator Inmo()
+    {
+        Inm = true;
+        yield return new WaitForSeconds(inmuneTime);
+        Inm = false;
     }
 
 }
