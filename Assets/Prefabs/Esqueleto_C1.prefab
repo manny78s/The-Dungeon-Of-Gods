@@ -103,7 +103,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ani: {fileID: 5462112981239184799}
-  enemigo: {fileID: 3911233333538698865}
+  enemigo: {fileID: 0}
   RangoBox: {fileID: 0}
 --- !u!1 &4123280507201573985
 GameObject:
@@ -147,7 +147,7 @@ GameObject:
   - component: {fileID: 5462112981239184797}
   - component: {fileID: 5462112981239184798}
   - component: {fileID: 5462112981239184799}
-  - component: {fileID: 3911233333538698865}
+  - component: {fileID: 3182109502104453720}
   - component: {fileID: 6961196110751912624}
   - component: {fileID: 5462112981239184769}
   - component: {fileID: 5462112981239184768}
@@ -252,7 +252,7 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!114 &3911233333538698865
+--- !u!114 &3182109502104453720
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -261,22 +261,26 @@ MonoBehaviour:
   m_GameObject: {fileID: 5462112981239184792}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 848a6c99e1abdc943bc744600f969d60, type: 3}
+  m_Script: {fileID: 11500000, guid: 815fa6cc2a1982348859da0167f3bb18, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rutina: 0
-  cronometro: 0
-  ani: {fileID: 5462112981239184799}
-  direccion: 0
-  speed_walk: 5
-  speed_run: 6
-  target: {fileID: 0}
-  atacando: 0
-  rango_vision: 3
-  rango_ataque: 0.3
-  rango: {fileID: 3817584241611100386}
-  Hit: {fileID: 5462112982587752767}
+  NavAge: {fileID: 0}
+  Enem_Anim: {fileID: 0}
+  NorSpeed: 5
+  RunSpeed: 7
+  AtacSpeed: 2
   Damage: 15
+  Player: {fileID: 0}
+  RadioSeguir: 7.41
+  RadioAtaque: 2.47
+  SeguirPL: 0
+  AtaquePL: 0
+  PL:
+    serializedVersion: 2
+    m_Bits: 128
+  PatrolPoint: []
+  StopDis: 1
+  Espera: 0
 --- !u!114 &6961196110751912624
 MonoBehaviour:
   m_ObjectHideFlags: 0

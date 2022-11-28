@@ -240,7 +240,6 @@ GameObject:
   - component: {fileID: 4982269044038677161}
   - component: {fileID: 4982269044038677160}
   - component: {fileID: 491539012868186734}
-  - component: {fileID: 2535475264594401745}
   m_Layer: 9
   m_Name: Esqueleto_C2
   m_TagString: Enemigo
@@ -267,7 +266,7 @@ Transform:
   - {fileID: 1279009201502979791}
   - {fileID: 8031016536047982430}
   m_Father: {fileID: 0}
-  m_RootOrder: 41
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &4982269044038677174
 SpriteRenderer:
@@ -422,28 +421,6 @@ MonoBehaviour:
   DropRate: 100
   MinDrop: 2
   MaxDrop: 4
---- !u!114 &2535475264594401745
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4982269044038677168}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 217ce9464ca2723418fb1e2c9ec3f8ed, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Rb: {fileID: 0}
-  GroundControl: {fileID: 6496960504210905696}
-  Distance: 2.04
-  Speed1: 4
-  Speed2: 6
-  LookRigth: 1
-  IsGround:
-    serializedVersion: 2
-    m_Bits: 8
-  Anim: {fileID: 0}
 --- !u!1 &6305984678778290566
 GameObject:
   m_ObjectHideFlags: 0

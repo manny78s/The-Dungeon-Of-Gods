@@ -68,7 +68,7 @@ public class LifePL : MonoBehaviour
     {
         if(other.gameObject.tag == "EnemAtacC" && !Inmune)
         {
-            Life -= other.GetComponentInParent<Enemigo2D>().Damage;
+            Life -= other.GetComponentInParent<Enemys>().Damage;
             StartCoroutine(NoControll());
             PL_Anim.SetBool("Dañado", true);
             StartCoroutine(Inmunity());

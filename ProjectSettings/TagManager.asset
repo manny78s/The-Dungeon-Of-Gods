@@ -25,13 +25,10 @@ TagManager:
   - Ataque
   - AtacBossProv
   - Batalla
-  - TutoCorrer
-  - TutoSalto
-  - TutoMov
-  - TutoBajar
-  - TutoAtac
   - Cofre
   - GasZ
+  - Key
+  - Door
   layers:
   - Default
   - TransparentFX

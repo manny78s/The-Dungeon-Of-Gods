@@ -91,6 +91,7 @@ public class Enemys : MonoBehaviour
             {
                 Enem_Anim.SetBool("Atacar", true);
                 AtacSpeed = 0;
+                //Enem_Anim.SetBool("Atacar", false);
             }
         }
         else

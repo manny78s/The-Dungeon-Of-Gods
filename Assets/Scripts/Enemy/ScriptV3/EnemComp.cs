@@ -6,7 +6,8 @@ public class EnemComp : MonoBehaviour
 {
     [SerializeField] private Rigidbody2D Rb;
     [SerializeField] private Transform GroundControl1;
-    [SerializeField] private Transform GroundControl2;
+    [SerializeField] private Transform Pared1;
+    [SerializeField] private Transform Pared2;
     [SerializeField] private bool LookRigth;
     [SerializeField] private LayerMask IsGround;
     [SerializeField] private Animator Anim;
@@ -31,11 +32,14 @@ public class EnemComp : MonoBehaviour
     {
         RaycastHit2D InfoGround = Physics2D.Raycast(GroundControl1.position, Vector2.down, Distance,IsGround);
         Player = Physics2D.OverlapBox(this.transform.position, BoxDimencions, AngleBox, IsPlayer);
+        RaycastHit2D InfoParedIzq = Physics2D.Raycast(Pared1.position, Vector2.left, Distance, IsGround);
+        RaycastHit2D InfoParedDer = Physics2D.Raycast(Pared2.position, Vector2.right, Distance, IsGround);
+        //RaycastHit2D InfoPlayer = Physics2D.Raycast(GroundControl2.position,Vector2.right,Distance,IsPlayer);
 
         Rb.velocity = new Vector2(Speed1, Rb.velocity.y);
         Anim.SetBool("Caminar", true);
 
-        if(InfoGround== false)
+        if(InfoGround== false||InfoParedDer == true || InfoParedIzq == true)
         {
             FlipR();
         }

@@ -237,7 +237,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3328090736515479350}
   m_Layer: 5
-  m_Name: Base
+  m_Name: BasePNJ
   m_TagString: Untagged
   m_Icon: {fileID: 1206586993520771344, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
@@ -331,6 +331,7 @@ GameObject:
   - component: {fileID: 3328090736866432787}
   - component: {fileID: 3328090736866432784}
   - component: {fileID: 866411939}
+  - component: {fileID: 1183008823}
   m_Layer: 7
   m_Name: Player
   m_TagString: Player
@@ -354,7 +355,7 @@ Transform:
   - {fileID: 3328090737018131967}
   - {fileID: 478309889}
   m_Father: {fileID: 0}
-  m_RootOrder: 0
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &3328090736866432791
 BoxCollider2D:
@@ -369,7 +370,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.058898926, y: 0}
+  m_Offset: {x: 0.040023804, y: -0.2041052}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -380,7 +381,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1.1785736, y: 3.56}
+  m_Size: {x: 1.698822, y: 3.2017384}
   m_EdgeRadius: 0
 --- !u!50 &3328090736866432790
 Rigidbody2D:
@@ -430,6 +431,9 @@ MonoBehaviour:
   Inmune: 0
   TimeInmune: 3
   OffControlTime: 0.8
+  GasD: 0
+  TimeDGas: 3
+  "Da\xF1oG": 2.5
 --- !u!114 &3328090736866432787
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -442,8 +446,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fa9b0db8edb4d7049877fcd84b997905, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  PNJscript1: {fileID: 0}
-  PNJscript2: {fileID: 0}
+  PNJscript1: {fileID: 866411939}
+  PNJscript2: {fileID: 1828121641}
   Canvas: {fileID: 0}
   UI: {fileID: 0}
 --- !u!114 &3328090736866432784
@@ -478,7 +482,9 @@ MonoBehaviour:
   PL_Anim: {fileID: 3328090737018131953}
   PL_Scale: {fileID: 3328090736866432789}
   IcanMove: 1
-  JumpForce: 9
+  InColChest: 0
+  ChestAnim: {fileID: 0}
+  JumpForce: 11
   NorSpeed: 5
   RunSpeed: 12
   "Da\xF1oC1": 3
@@ -499,6 +505,20 @@ MonoBehaviour:
     m_Bits: 64
   CancelarSalto: 0.4
   MultiplicadorGravedad: 1.2
+--- !u!114 &1183008823
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3328090736866432809}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b84594f8f6e4ce94986105bcaa2f77ba, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  KeyAmount: 0
+  script: {fileID: 0}
 --- !u!1 &3328090737018131952
 GameObject:
   m_ObjectHideFlags: 0
@@ -622,9 +642,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Atacando: 0
   Combo: 0
-  PL_Anim: {fileID: 0}
-  SceneAct: 
+  PL_Anim: {fileID: 3328090737018131953}
+  SceneAct: Game
   Estoque: 10
   EspReload: 2
   father: {fileID: 3328090736866432789}
-  PL_Script: {fileID: 0}
+  PL_Script: {fileID: 866411939}
