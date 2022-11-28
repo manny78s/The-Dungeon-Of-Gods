@@ -352,12 +352,12 @@ TextureImporter:
       name: esqueleto base_24
       rect:
         serializedVersion: 2
-        x: 765
-        y: 3976
+        x: 770
+        y: 3974
         width: 228
         height: 291
       alignment: 9
-      pivot: {x: 0.47573906, y: 0.5538569}
+      pivot: {x: 0.48615438, y: 0.27386287}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -377,8 +377,8 @@ TextureImporter:
         y: 3984
         width: 236
         height: 282
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.5515474, y: 0.31191215}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -399,7 +399,7 @@ TextureImporter:
         width: 224
         height: 286
       alignment: 9
-      pivot: {x: 0.47494835, y: 0.5517254}
+      pivot: {x: 0.46046993, y: 0.27662414}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -420,7 +420,7 @@ TextureImporter:
         width: 236
         height: 292
       alignment: 9
-      pivot: {x: 0.4804677, y: 0.5378869}
+      pivot: {x: 0.6032989, y: 0.31784183}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -436,12 +436,12 @@ TextureImporter:
       name: esqueleto base_29
       rect:
         serializedVersion: 2
-        x: 1419
+        x: 1421
         y: 3974
         width: 314
         height: 295
       alignment: 9
-      pivot: {x: 0.52055174, y: 0.53750163}
+      pivot: {x: 0.63707525, y: 0.36003625}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -457,12 +457,12 @@ TextureImporter:
       name: esqueleto base_30
       rect:
         serializedVersion: 2
-        x: 1765
-        y: 3971
+        x: 1789
+        y: 3969
         width: 347
         height: 304
       alignment: 9
-      pivot: {x: 0.5265677, y: 0.53639144}
+      pivot: {x: 0.6049235, y: 0.45132446}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -478,12 +478,12 @@ TextureImporter:
       name: esqueleto base_31
       rect:
         serializedVersion: 2
-        x: 2185
-        y: 3979
+        x: 2187
+        y: 3977
         width: 326
         height: 311
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.61519694, y: 0.38608447}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -503,8 +503,8 @@ TextureImporter:
         y: 4020
         width: 317
         height: 282
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.626528, y: 0.43146402}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -524,8 +524,8 @@ TextureImporter:
         y: 3976
         width: 280
         height: 282
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.6618827, y: 0.4197037}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -542,11 +542,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 3397
-        y: 3977
+        y: 3981
         width: 264
         height: 301
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.66283715, y: 0.39885926}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -566,8 +566,8 @@ TextureImporter:
         y: 3976
         width: 246
         height: 285
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.6714076, y: 0.41273472}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -587,8 +587,8 @@ TextureImporter:
         y: 3979
         width: 250
         height: 284
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.60272264, y: 0.4134229}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -604,12 +604,12 @@ TextureImporter:
       name: esqueleto base_38
       rect:
         serializedVersion: 2
-        x: 4493
+        x: 4495
         y: 3993
         width: 234
         height: 295
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.5659305, y: 0.39518008}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -630,7 +630,7 @@ TextureImporter:
         width: 285
         height: 285
       alignment: 9
-      pivot: {x: 0.49548876, y: 0.5496154}
+      pivot: {x: 0.6135797, y: 0.30523145}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -651,7 +651,7 @@ TextureImporter:
         width: 214
         height: 309
       alignment: 9
-      pivot: {x: 0.21497494, y: 0.51172984}
+      pivot: {x: 0.45388365, y: 0.2831723}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -672,7 +672,7 @@ TextureImporter:
         width: 221
         height: 340
       alignment: 9
-      pivot: {x: 0.2593392, y: 0.4604916}
+      pivot: {x: 0.47022644, y: 0.33142594}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -693,7 +693,7 @@ TextureImporter:
         width: 221
         height: 346
       alignment: 9
-      pivot: {x: 0.28774348, y: 0.48126397}
+      pivot: {x: 0.45264003, y: 0.29311833}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -714,7 +714,7 @@ TextureImporter:
         width: 246
         height: 362
       alignment: 9
-      pivot: {x: 0.43995976, y: 0.43199873}
+      pivot: {x: 0.47698975, y: 0.3593858}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -730,12 +730,12 @@ TextureImporter:
       name: esqueleto base_51
       rect:
         serializedVersion: 2
-        x: 2105
-        y: 3516
+        x: 2106
+        y: 3518
         width: 272
-        height: 309
+        height: 314
       alignment: 9
-      pivot: {x: 0.39531663, y: 0.51575613}
+      pivot: {x: 0.4441268, y: 0.3543219}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -898,12 +898,12 @@ TextureImporter:
       name: esqueleto base_79
       rect:
         serializedVersion: 2
-        x: 361
-        y: 2639
+        x: 359
+        y: 2644
         width: 304
         height: 308
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.61868685, y: 0.38133973}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -919,12 +919,12 @@ TextureImporter:
       name: esqueleto base_80
       rect:
         serializedVersion: 2
-        x: 729
-        y: 2646
+        x: 731
+        y: 2648
         width: 274
         height: 308
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.68292725, y: 0.39360067}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -940,12 +940,12 @@ TextureImporter:
       name: esqueleto base_81
       rect:
         serializedVersion: 2
-        x: 1115
+        x: 1118
         y: 2643
         width: 217
         height: 326
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.5917794, y: 0.42236477}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -961,12 +961,12 @@ TextureImporter:
       name: esqueleto base_82
       rect:
         serializedVersion: 2
-        x: 1414
+        x: 1415
         y: 2646
         width: 246
         height: 289
       alignment: 9
-      pivot: {x: 0.5673476, y: 0.5495014}
+      pivot: {x: 0.64615786, y: 0.43996337}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -982,12 +982,12 @@ TextureImporter:
       name: esqueleto base_83
       rect:
         serializedVersion: 2
-        x: 1755
-        y: 2646
+        x: 1758
+        y: 2649
         width: 241
         height: 289
       alignment: 9
-      pivot: {x: 0.5347556, y: 0.5372648}
+      pivot: {x: 0.7092427, y: 0.46512082}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1008,7 +1008,7 @@ TextureImporter:
         width: 260
         height: 287
       alignment: 9
-      pivot: {x: 0.5368192, y: 0.55837256}
+      pivot: {x: 0.7164316, y: 0.42914307}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1024,12 +1024,12 @@ TextureImporter:
       name: esqueleto base_85
       rect:
         serializedVersion: 2
-        x: 2409
-        y: 2650
-        width: 311
+        x: 2410
+        y: 2645
+        width: 330
         height: 287
       alignment: 9
-      pivot: {x: 0.5384769, y: 0.54169446}
+      pivot: {x: 0.5953887, y: 0.43358013}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1045,12 +1045,12 @@ TextureImporter:
       name: esqueleto base_86
       rect:
         serializedVersion: 2
-        x: 2757
+        x: 2758
         y: 2647
         width: 321
         height: 290
       alignment: 9
-      pivot: {x: 0.51026076, y: 0.54542786}
+      pivot: {x: 0.6069024, y: 0.43135187}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
