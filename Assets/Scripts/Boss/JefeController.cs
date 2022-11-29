@@ -14,7 +14,9 @@ public class JefeController : MonoBehaviour
 
     [Header("Stats")]
     [SerializeField] public float Speed;
-    [SerializeField] public float Damage;
+    [SerializeField] public float Damage1;
+    [SerializeField] public float Damage2;
+    [SerializeField] public float LighthingDmg;
 
     [Space]
 

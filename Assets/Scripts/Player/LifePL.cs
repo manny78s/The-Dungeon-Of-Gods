@@ -34,17 +34,19 @@ public class LifePL : MonoBehaviour
         PL_Anim = GetComponentInChildren<Animator>();
         Shield = 1;
         PL_Rigid = GetComponentInChildren<Rigidbody2D>();
+        Boss = GameObject.FindGameObjectWithTag("God");
+        Boss.GetComponent<SpriteRenderer>().enabled = false;
     }
     private void Update()
     {
 
         LifeBarr.GetComponent<Slider>().maxValue = TotalLife;
         LifeBarr.GetComponent<Slider>().value = Life; 
-        if(Boss.activeInHierarchy == false)
+        /*if(Boss.activeInHierarchy == false)
         {
             Texto.SetActive(true);
             Panel.SetActive(true);
-        }
+        }*/
  
     }
     private void FixedUpdate()

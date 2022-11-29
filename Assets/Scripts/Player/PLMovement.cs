@@ -11,6 +11,7 @@ public class PLMovement : MonoBehaviour
     [SerializeField] public bool IcanMove = true;
     [SerializeField] private bool InColChest;
     [SerializeField] private Animator ChestAnim;
+    [SerializeField] private GameObject SliderBoss;
 
     [Space]
 
@@ -189,6 +190,11 @@ public class PLMovement : MonoBehaviour
         if(other.gameObject.tag=="Cofre")
         {
             InColChest = true;
+        }
+        if(other.gameObject.tag=="BossZ")
+        {
+            SliderBoss.SetActive(true);
+            other.GetComponent<BoxCollider2D>().enabled = false;
         }
     }
     private void OnTriggerStay2D(Collider2D other)
