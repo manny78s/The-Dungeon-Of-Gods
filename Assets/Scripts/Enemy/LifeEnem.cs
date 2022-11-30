@@ -5,7 +5,7 @@ using UnityEngine;
 public class LifeEnem : MonoBehaviour
 {
     [Header("Components")]
-    private Rigidbody2D Enem_Rigid;
+
     [SerializeField] Animator Enem_Anim;
     [SerializeField] public PLMovement PnjScript;
     [SerializeField] private DropEnem DropScript;
@@ -14,14 +14,13 @@ public class LifeEnem : MonoBehaviour
 
     [Header("Stats")]
     [SerializeField] public float Life;
-    [SerializeField] public float Shield;
+    //[SerializeField] public float Shield;
     [SerializeField] private float inmuneTime;
     [SerializeField] private bool Inm;
 
     void Start()
     {
-        Enem_Rigid = GetComponent<Rigidbody2D>();
-        Enem_Anim = GetComponent<Animator>();
+ 
         DropScript = GetComponent<DropEnem>();
     }
     private void Update()
@@ -35,11 +34,11 @@ public class LifeEnem : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        if(other.gameObject.tag == "AtacC1" && !Inm)
+        if(other.gameObject.tag == "AtacC1")
         {
             Life -= PnjScript.DañoC1;
             Enem_Anim.SetBool("Dañado", true);
-            StartCoroutine(Inmo());
+            //StartCoroutine(Inmo());
             if(Life <= 0)
             {
                 Enem_Anim.SetBool("Dead", true);
