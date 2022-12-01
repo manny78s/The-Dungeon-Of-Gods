@@ -49,7 +49,7 @@ public class LifePL : MonoBehaviour
 
         LifeBarr.GetComponent<Slider>().maxValue = TotalLife;
         LifeBarr.GetComponent<Slider>().value = Life; 
-        /*if(Boss.activeInHierarchy == false)
+        /*if(Boss.GetComponent<JefeLife>().Life <= 0)
         {
             Texto.SetActive(true);
             Panel.SetActive(true);
@@ -187,7 +187,7 @@ public class LifePL : MonoBehaviour
         this.GetComponent<PLMovement>().enabled = true;
         this.GetComponentInChildren<CombSystem>().enabled = true;
     }
-    IEnumerator DañoGas()
+    /*IEnumerator DañoGas()
     {
         yield return new WaitForSeconds(TimeDGas);
         Life -= DañoG;
@@ -201,6 +201,6 @@ public class LifePL : MonoBehaviour
         Life -= DañoG;
         PL_Anim.SetBool("Dañado", true);
         PL_Anim.SetBool("Dañado", false);
-    }
+    }*/
     
 }
