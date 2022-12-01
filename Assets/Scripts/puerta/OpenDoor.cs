@@ -18,7 +18,7 @@ public class OpenDoor : MonoBehaviour
         if (abierto == true)
         {
             //keys.KeyAmount += 1;
-            anim.SetTrigger("OpenDoor");
+            anim.SetBool("OpenDoor", true);
             //abierto = false;
         }
     }
@@ -28,8 +28,9 @@ public class OpenDoor : MonoBehaviour
         {
             if(collision.GetComponent<PLMovement>().KeyIn == true)
             {
-                abierto=true;
                 collision.GetComponent<PLMovement>().KeyIn = false;
+                abierto =true;
+                
             }
         }
     }
