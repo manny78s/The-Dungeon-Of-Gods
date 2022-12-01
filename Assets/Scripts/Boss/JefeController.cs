@@ -84,6 +84,14 @@ public class JefeController : MonoBehaviour
         if(PLDetec == true)
         {
             Nav_God.SetDestination(Player.position);
+            if(Rayo==true)
+            {
+                WaitRayo += 1 * Time.deltaTime;
+                if(WaitRayo >=6)
+                {
+                    Anim_God.SetBool("Rayo", true);
+                }
+            }
         }
     }
 
@@ -101,5 +109,17 @@ public class JefeController : MonoBehaviour
     public bool HeLlegado()
     {
         return Nav_God.remainingDistance <= Nav_God.stoppingDistance && !Nav_God.pathPending;
+    }
+    public void DesRay()
+    {
+        Anim_God.SetBool("Rayo", false);
+    }
+    public void DesPunch()
+    {
+        Anim_God.SetBool("Puñetazo", false);
+    }
+    public void DesImp()
+    {
+        Anim_God.SetBool("Pisada", false);
     }
 }

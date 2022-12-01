@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.UI;
 
 public class PLMovement : MonoBehaviour
 {
@@ -12,6 +13,8 @@ public class PLMovement : MonoBehaviour
     [SerializeField] private bool InColChest;
     [SerializeField] private Animator ChestAnim;
     [SerializeField] private GameObject SliderBoss;
+    [SerializeField] public bool KeyIn;
+    [SerializeField] private Image KeyImage;
 
     [Space]
 
@@ -24,6 +27,7 @@ public class PLMovement : MonoBehaviour
     [Space]
 
     [Header("Stats_Atacks")]
+
     [SerializeField] public float DañoC1;
     [SerializeField] public float DañoC2;
     [SerializeField] public float DañoL1;
@@ -88,6 +92,11 @@ public class PLMovement : MonoBehaviour
 
         InGround = Physics2D.OverlapBox(ColBase.position, BoxDimencions, 0, Ground);
         InPlataform = Physics2D.OverlapBox(ColBase.position, BoxDimencions, 0, Plataforms);
+
+        if(KeyIn == false)
+        {
+            KeyImage.color = new Color(95, 95, 95);
+        }
     }
     private void FixedUpdate()
     {
@@ -213,6 +222,13 @@ public class PLMovement : MonoBehaviour
         if(collision.gameObject.tag=="Cofre")
         {
             InColChest=false;
+        }
+    }
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if(collision.gameObject.tag=="Door" && KeyIn==true)
+        {
+            collision.gameObject.GetComponent<Animator>().SetBool("OpenDoor", true);
         }
     }
 }

@@ -7,14 +7,14 @@ using UnityEngine.UI;
 public class SliderBoss : MonoBehaviour
 {
     [SerializeField] public Slider LifeBarr;
-    [SerializeField] public LifeEnem LifeAct;
+    [SerializeField] public JefeLife LifeAct;
     public float Life;
     public TextMeshProUGUI Texto;
     public GameObject Slider;
     // Start is called before the first frame update
     void Start()
     {
-        LifeAct= GetComponent<LifeEnem>();
+        LifeAct= GetComponent<JefeLife>();
     }
 
     // Update is called once per frame
