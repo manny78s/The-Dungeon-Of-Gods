@@ -42381,22 +42381,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6e1844ea1cbf98b42a1554dc7fd02f4c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!208 &1183008824
-NavMeshObstacle:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 228748943}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Shape: 1
-  m_Extents: {x: 0.79, y: 1.62, z: 0.885}
-  m_MoveThreshold: 0.1
-  m_Carve: 1
-  m_CarveOnlyStationary: 1
-  m_Center: {x: 0, y: -0.13, z: 0}
-  m_TimeToStationary: 0.5
 --- !u!1001 &1185268681
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -48602,11 +48586,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!95 &1367908376 stripped
-Animator:
-  m_CorrespondingSourceObject: {fileID: 1382256385361837400, guid: 739116ce83abd1342a931688a5f0360c, type: 3}
-  m_PrefabInstance: {fileID: 1382256384582180160}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1368309953
 GameObject:
   m_ObjectHideFlags: 0
@@ -70290,62 +70269,14 @@ PrefabInstance:
     serializedVersion: 2
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 478309888, guid: cba0d73f4ecdd54449a52547dcd4b9fc, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 2147483647
-      objectReference: {fileID: 0}
-    - target: {fileID: 866411939, guid: cba0d73f4ecdd54449a52547dcd4b9fc, type: 3}
-      propertyPath: Act
-      value: 
-      objectReference: {fileID: 2100000, guid: 842795b1303a50340a29f0020a2bcb34, type: 2}
-    - target: {fileID: 866411939, guid: cba0d73f4ecdd54449a52547dcd4b9fc, type: 3}
-      propertyPath: Des
-      value: 
-      objectReference: {fileID: 2100000, guid: 54e2b607d5ec8b348b3aa60d650f593f, type: 2}
     - target: {fileID: 866411939, guid: cba0d73f4ecdd54449a52547dcd4b9fc, type: 3}
       propertyPath: KeyImage
       value: 
       objectReference: {fileID: 874630316}
     - target: {fileID: 866411939, guid: cba0d73f4ecdd54449a52547dcd4b9fc, type: 3}
-      propertyPath: NorSpeed
-      value: 9
-      objectReference: {fileID: 0}
-    - target: {fileID: 866411939, guid: cba0d73f4ecdd54449a52547dcd4b9fc, type: 3}
-      propertyPath: ChestAnim
-      value: 
-      objectReference: {fileID: 1367908376}
-    - target: {fileID: 866411939, guid: cba0d73f4ecdd54449a52547dcd4b9fc, type: 3}
       propertyPath: SliderBoss
       value: 
       objectReference: {fileID: 1927692762}
-    - target: {fileID: 866411939, guid: cba0d73f4ecdd54449a52547dcd4b9fc, type: 3}
-      propertyPath: MultiplicadorGravedad
-      value: 1.7
-      objectReference: {fileID: 0}
-    - target: {fileID: 1183008823, guid: cba0d73f4ecdd54449a52547dcd4b9fc, type: 3}
-      propertyPath: script
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 3328090735712791335, guid: cba0d73f4ecdd54449a52547dcd4b9fc, type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3328090735712791335, guid: cba0d73f4ecdd54449a52547dcd4b9fc, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 2147483647
-      objectReference: {fileID: 0}
-    - target: {fileID: 3328090736369036522, guid: cba0d73f4ecdd54449a52547dcd4b9fc, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 2147483647
-      objectReference: {fileID: 0}
-    - target: {fileID: 3328090736515479369, guid: cba0d73f4ecdd54449a52547dcd4b9fc, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 2147483647
-      objectReference: {fileID: 0}
-    - target: {fileID: 3328090736821404994, guid: cba0d73f4ecdd54449a52547dcd4b9fc, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 2147483647
-      objectReference: {fileID: 0}
     - target: {fileID: 3328090736866432784, guid: cba0d73f4ecdd54449a52547dcd4b9fc, type: 3}
       propertyPath: Cantidad
       value: 
@@ -70363,14 +70294,6 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 2103232173}
     - target: {fileID: 3328090736866432786, guid: cba0d73f4ecdd54449a52547dcd4b9fc, type: 3}
-      propertyPath: "Da\xF1oPie"
-      value: 20
-      objectReference: {fileID: 0}
-    - target: {fileID: 3328090736866432786, guid: cba0d73f4ecdd54449a52547dcd4b9fc, type: 3}
-      propertyPath: "Da\xF1oRay"
-      value: 1.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 3328090736866432786, guid: cba0d73f4ecdd54449a52547dcd4b9fc, type: 3}
       propertyPath: LifeBarr
       value: 
       objectReference: {fileID: 141779413}
@@ -70378,14 +70301,6 @@ PrefabInstance:
       propertyPath: LifeBoss
       value: 
       objectReference: {fileID: 1927692762}
-    - target: {fileID: 3328090736866432786, guid: cba0d73f4ecdd54449a52547dcd4b9fc, type: 3}
-      propertyPath: "Da\xF1oRock"
-      value: 6
-      objectReference: {fileID: 0}
-    - target: {fileID: 3328090736866432786, guid: cba0d73f4ecdd54449a52547dcd4b9fc, type: 3}
-      propertyPath: "Da\xF1oPunch"
-      value: 15
-      objectReference: {fileID: 0}
     - target: {fileID: 3328090736866432787, guid: cba0d73f4ecdd54449a52547dcd4b9fc, type: 3}
       propertyPath: UI
       value: 
@@ -70441,14 +70356,6 @@ PrefabInstance:
     - target: {fileID: 3328090736866432809, guid: cba0d73f4ecdd54449a52547dcd4b9fc, type: 3}
       propertyPath: m_Name
       value: Player
-      objectReference: {fileID: 0}
-    - target: {fileID: 3328090736866432809, guid: cba0d73f4ecdd54449a52547dcd4b9fc, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3328090737018131952, guid: cba0d73f4ecdd54449a52547dcd4b9fc, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
