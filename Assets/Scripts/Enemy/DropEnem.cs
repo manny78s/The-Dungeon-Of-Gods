@@ -1,5 +1,4 @@
 using UnityEngine;
-using UnityEngine.UI;
 
 public class DropEnem : MonoBehaviour
 {
@@ -10,7 +9,7 @@ public class DropEnem : MonoBehaviour
     [SerializeField] private int MaxDrop;
 
     [SerializeField] private bool ConKey;
-    [SerializeField] private Image Key;
+    //[SerializeField] private Image Key;
     [SerializeField] private PLMovement K;
 
     public void Drop()
@@ -25,8 +24,8 @@ public class DropEnem : MonoBehaviour
 
             for(int i = 0; i < amont; i++)
             {
-                Instantiate(Coin, Origen.transform.position,Origen.transform.rotation);
-                
+                Instantiate(Coin, Origen.transform.position,Origen.transform.rotation);             
+                //Instantiate(Coin, Origen.transform.position,Origen.transform.rotation);             
             }
         }
     }
@@ -35,7 +34,7 @@ public class DropEnem : MonoBehaviour
     {
         if (ConKey == true)
         {
-            Key.color = new Color(255, 255, 255);
+            //Key.color = new Color(255, 255, 255);
             K.KeyIn = true;
         }
     }
