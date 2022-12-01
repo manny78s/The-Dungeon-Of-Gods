@@ -160,11 +160,12 @@ public class LifePL : MonoBehaviour
     {
         if(collision.gameObject.tag == "GasZ")
         {
-            StartCoroutine(DañoGas());
-            if(GasD== true)
+            //StartCoroutine(DañoGas());
+            /*if(GasD== true)
             {
                 GasD = false;
-            }
+            }*/
+            Life -= DañoG;
         }
         if(collision.gameObject.tag == "Rayo_Jefe")
         {
