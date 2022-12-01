@@ -29,6 +29,7 @@ TagManager:
   - GasZ
   - Key
   - Door
+  - BossZ
   layers:
   - Default
   - TransparentFX
@@ -45,7 +46,7 @@ TagManager:
   - BossProv
   - Coins
   - Trampas_bots
-  - 
+  - Boss
   - 
   - 
   - 

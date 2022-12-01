@@ -17,7 +17,7 @@ public class AnimLife : MonoBehaviour
     private void Awake()
     {
         PlScripts = GameObject.FindGameObjectWithTag("Player");
-        BossScript = GameObject.FindGameObjectWithTag("God");
+        //BossScript = GameObject.FindGameObjectWithTag("God");
     }
 
     // Update is called once per frame
@@ -27,8 +27,9 @@ public class AnimLife : MonoBehaviour
     }
     public void DesAnim()
     {
-        BossScript.GetComponent<SpriteRenderer>().enabled = true;
-        BossScript.GetComponent<Animator>().enabled = true;
+        //BossScript.GetComponent<SpriteRenderer>().enabled = true;
+        //BossScript.GetComponent<Animator>().enabled = true;
+        BossScript.SetActive(true);
         PlScripts.GetComponent<PLMovement>().enabled = true;
         animator.enabled = false;
         

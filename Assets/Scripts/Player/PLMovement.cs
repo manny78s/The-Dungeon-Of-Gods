@@ -11,7 +11,7 @@ public class PLMovement : MonoBehaviour
     public Transform PL_Scale;
     [SerializeField] public bool IcanMove = true;
     [SerializeField] private bool InColChest;
-    [SerializeField] private Animator ChestAnim;
+    //[SerializeField] private Animator ChestAnim;
     [SerializeField] private GameObject SliderBoss;
     [SerializeField] public bool KeyIn;
     [SerializeField] private Image KeyImage;
@@ -199,6 +199,7 @@ public class PLMovement : MonoBehaviour
         if(other.gameObject.tag=="Cofre")
         {
             InColChest = true;
+            //ChestAnim = other.GetComponent<Animator>();
         }
         if(other.gameObject.tag=="BossZ")
         {
@@ -210,9 +211,10 @@ public class PLMovement : MonoBehaviour
     {
         if(other.gameObject.tag=="Cofre")
         {
+            InColChest = true;
             if (Input.GetMouseButton(1) && InColChest==true)
             {
-                ChestAnim.SetBool("Active", true);
+                other.gameObject.GetComponent<Animator>().SetBool("Active", true);
             }
 
         }

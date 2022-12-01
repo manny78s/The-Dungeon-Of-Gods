@@ -28,6 +28,13 @@ public class LifePL : MonoBehaviour
     [SerializeField] private float TimeDGas;
     [SerializeField] private float DañoG;
 
+    [Header("DAÑOBOSS")]
+
+    [SerializeField] private float DañoRock;
+    [SerializeField] private float DañoPunch;
+    [SerializeField] private float DañoPie;
+    [SerializeField] private float DañoRay;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -35,7 +42,7 @@ public class LifePL : MonoBehaviour
         Shield = 1;
         PL_Rigid = GetComponentInChildren<Rigidbody2D>();
         Boss = GameObject.FindGameObjectWithTag("God");
-        Boss.GetComponent<SpriteRenderer>().enabled = false;
+        //Boss.GetComponent<SpriteRenderer>().enabled = false;
     }
     private void Update()
     {
@@ -103,6 +110,51 @@ public class LifePL : MonoBehaviour
                 other.GetComponent<Cofre>().Anim.SetBool("Abierto", true);
             }
         }
+        if(other.gameObject.tag=="Rocas")
+        {
+            Life -= DañoRock;
+            StartCoroutine(NoControll());
+            PL_Anim.SetBool("Dañado", true);
+            if (other.transform.position.x > transform.position.x)
+            {
+                PL_Rigid.AddForce(new Vector2(-KnockBackForceX, KnockBackForceY), ForceMode2D.Force);
+            }
+            else
+            {
+                PL_Rigid.AddForce(new Vector2(KnockBackForceX, KnockBackForceY), ForceMode2D.Force);
+            }
+        }
+        if(other.gameObject.tag=="Pisoton_Jefe")
+        {
+            Life -= DañoPie;
+            StartCoroutine(NoControll());
+            PL_Anim.SetBool("Dañado", true);
+            if (other.transform.position.x > transform.position.x)
+            {
+                PL_Rigid.AddForce(new Vector2(-KnockBackForceX, KnockBackForceY), ForceMode2D.Force);
+            }
+            else
+            {
+                PL_Rigid.AddForce(new Vector2(KnockBackForceX, KnockBackForceY), ForceMode2D.Force);
+            }
+        }
+        if(other.gameObject.tag=="Puño_Jefe" && !Inmune)
+        {
+            Life -= DañoPunch;
+            StartCoroutine(NoControll());
+            PL_Anim.SetBool("Dañado", true);
+            StartCoroutine(Inmunity());
+            if (other.transform.position.x > transform.position.x)
+            {
+                PL_Rigid.AddForce(new Vector2(-KnockBackForceX, KnockBackForceY), ForceMode2D.Force);
+            }
+            else
+            {
+                PL_Rigid.AddForce(new Vector2(KnockBackForceX, KnockBackForceY), ForceMode2D.Force);
+            }
+
+        }
+
     }
     private void OnTriggerStay2D(Collider2D collision)
     {
@@ -113,10 +165,10 @@ public class LifePL : MonoBehaviour
             {
                 GasD = false;
             }
-            /*else
-            {
-                PL_Anim.SetBool("Dañado", false);
-            }*/
+        }
+        if(collision.gameObject.tag == "Rayo_Jefe")
+        {
+            Life -= DañoRay;
         }
     }
 
@@ -149,4 +201,5 @@ public class LifePL : MonoBehaviour
         PL_Anim.SetBool("Dañado", true);
         PL_Anim.SetBool("Dañado", false);
     }
+    
 }
