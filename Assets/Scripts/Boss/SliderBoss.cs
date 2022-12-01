@@ -8,7 +8,7 @@ public class SliderBoss : MonoBehaviour
 {
     [SerializeField] public Slider LifeBarr;
     [SerializeField] public JefeLife LifeAct;
-    public float Life;
+    public float LifeMax;
     public TextMeshProUGUI Texto;
     public GameObject Slider;
     // Start is called before the first frame update
@@ -20,10 +20,11 @@ public class SliderBoss : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Life = LifeAct.Life;
-        Texto.text = Life.ToString() + "%";
-        LifeBarr.GetComponent<Slider>().value = Life;
-        if(Life<=0)
+        LifeMax = LifeAct.MaxLife;
+        Texto.text = LifeAct.Life.ToString() + "%";
+        LifeBarr.GetComponent<Slider>().maxValue = LifeMax;
+        LifeBarr.GetComponent<Slider>().value = LifeAct.Life;
+        if(LifeAct.Life<=0)
         {
             Slider.SetActive(false);
         }

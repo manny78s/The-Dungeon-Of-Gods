@@ -10,11 +10,10 @@ public class PLMovement : MonoBehaviour
     public Animator PL_Anim;
     public Transform PL_Scale;
     [SerializeField] public bool IcanMove = true;
-    [SerializeField] private bool InColChest;
+
     //[SerializeField] private Animator ChestAnim;
     [SerializeField] private GameObject SliderBoss;
-    [SerializeField] public bool KeyIn;
-    [SerializeField] private Image KeyImage;
+
 
     [Space]
 
@@ -56,6 +55,14 @@ public class PLMovement : MonoBehaviour
     private float GravityScale;
     private bool jump;
 
+    [Space]
+
+    [Header("KeyAndChet")]
+    [SerializeField] public bool KeyIn;
+    [SerializeField] private Image KeyImage;
+    [SerializeField] private bool InColChest;
+    [SerializeField] private Material Des, Act;
+
     private void OnDrawGizmos()
     {
         Gizmos.color = Color.yellow;
@@ -95,7 +102,11 @@ public class PLMovement : MonoBehaviour
 
         if(KeyIn == false)
         {
-            KeyImage.color = new Color(95, 95, 95);
+            KeyImage.material = Des;
+        }
+        else
+        {
+            KeyImage.material = Act;
         }
     }
     private void FixedUpdate()
@@ -121,14 +132,14 @@ public class PLMovement : MonoBehaviour
         float Hor = Input.GetAxis("Horizontal");
         PL_Rigid.velocity = new Vector2(Hor*NorSpeed,PL_Rigid.velocity.y);
 
-        if(Input.GetButton("Izquierda") && Input.GetKey(KeyCode.LeftShift)|| Input.GetButton("Derecha") && Input.GetKey(KeyCode.LeftShift))
+        /*if(Input.GetButton("Izquierda") && Input.GetKey(KeyCode.LeftShift)|| Input.GetButton("Derecha") && Input.GetKey(KeyCode.LeftShift))
         {
             PL_Rigid.velocity = new Vector2(Hor*RunSpeed,PL_Rigid.velocity.y);
         }
         if(Input.GetButton("Izquierda") && Input.GetKey(KeyCode.RightControl) || Input.GetButton("Derecha") && Input.GetKey(KeyCode.RightControl))
         {
             PL_Rigid.velocity = new Vector2(Hor * RunSpeed, PL_Rigid.velocity.y);
-        }
+        }*/
     }
     void AnimAndFlip()
     {
@@ -136,12 +147,12 @@ public class PLMovement : MonoBehaviour
         if(Input.GetButton("Izquierda"))
         {
             PL_Scale.localScale = new Vector3(-1, 1, 1);
-            PL_Anim.SetBool("Caminar", true);
+            PL_Anim.SetBool("Correr", true);
         }
         if(Input.GetButton("Derecha"))
         {
             PL_Scale.localScale = new Vector3(1, 1, 1);
-            PL_Anim.SetBool("Caminar", true);
+            PL_Anim.SetBool("Correr", true);
         }
         if (Input.GetButtonUp("Izquierda") || Input.GetButtonUp("Derecha"))
         {
@@ -149,7 +160,7 @@ public class PLMovement : MonoBehaviour
             PL_Anim.SetBool("Correr", false);
         }
         //Correr Flip and Anim
-        if (Input.GetButton("Izquierda") && Input.GetKey(KeyCode.LeftShift) || Input.GetButton("Izquierda") && Input.GetKey(KeyCode.RightControl))
+        /*if (Input.GetButton("Izquierda") && Input.GetKey(KeyCode.LeftShift) || Input.GetButton("Izquierda") && Input.GetKey(KeyCode.RightControl))
         {
             PL_Scale.localScale = new Vector3(-1, 1, 1);
             PL_Anim.SetBool("Correr", true);
@@ -162,7 +173,7 @@ public class PLMovement : MonoBehaviour
         if (Input.GetKeyUp(KeyCode.LeftShift))
         {
             PL_Anim.SetBool("Correr", false);
-        }
+        }*/
     }
     //Salto y animacion
     void JumpMovement()

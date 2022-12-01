@@ -15,7 +15,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &478309889
 Transform:
@@ -126,8 +126,8 @@ GameObject:
   m_TagString: AtacC1
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_StaticEditorFlags: 2147483647
+  m_IsActive: 1
 --- !u!4 &3328090735712791332
 Transform:
   m_ObjectHideFlags: 0
@@ -184,7 +184,7 @@ GameObject:
   m_TagString: AtacC2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 0
 --- !u!4 &3328090736369036523
 Transform:
@@ -241,7 +241,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 1206586993520771344, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &3328090736515479350
 Transform:
@@ -273,7 +273,7 @@ GameObject:
   m_TagString: EspecialC
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 0
 --- !u!4 &3328090736821404995
 Transform:
@@ -331,7 +331,7 @@ GameObject:
   - component: {fileID: 3328090736866432787}
   - component: {fileID: 3328090736866432784}
   - component: {fileID: 866411939}
-  - component: {fileID: 1183008823}
+  - component: {fileID: 1183008824}
   m_Layer: 7
   m_Name: Player
   m_TagString: Player
@@ -355,7 +355,7 @@ Transform:
   - {fileID: 3328090737018131967}
   - {fileID: 478309889}
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &3328090736866432791
 BoxCollider2D:
@@ -434,6 +434,10 @@ MonoBehaviour:
   GasD: 0
   TimeDGas: 3
   "Da\xF1oG": 2.5
+  "Da\xF1oRock": 6
+  "Da\xF1oPunch": 15
+  "Da\xF1oPie": 20
+  "Da\xF1oRay": 1.5
 --- !u!114 &3328090736866432787
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -482,10 +486,9 @@ MonoBehaviour:
   PL_Anim: {fileID: 3328090737018131953}
   PL_Scale: {fileID: 3328090736866432789}
   IcanMove: 1
-  InColChest: 0
-  ChestAnim: {fileID: 0}
+  SliderBoss: {fileID: 0}
   JumpForce: 11
-  NorSpeed: 5
+  NorSpeed: 9
   RunSpeed: 12
   "Da\xF1oC1": 3
   "Da\xF1oC2": 5
@@ -504,21 +507,28 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   CancelarSalto: 0.4
-  MultiplicadorGravedad: 1.2
---- !u!114 &1183008823
-MonoBehaviour:
+  MultiplicadorGravedad: 1.7
+  KeyIn: 0
+  KeyImage: {fileID: 0}
+  InColChest: 0
+  Des: {fileID: 2100000, guid: 54e2b607d5ec8b348b3aa60d650f593f, type: 2}
+  Act: {fileID: 2100000, guid: 842795b1303a50340a29f0020a2bcb34, type: 2}
+--- !u!208 &1183008824
+NavMeshObstacle:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3328090736866432809}
   m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b84594f8f6e4ce94986105bcaa2f77ba, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  KeyAmount: 0
-  script: {fileID: 0}
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 0.79, y: 1.62, z: 0.885}
+  m_MoveThreshold: 0.1
+  m_Carve: 1
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0, y: -0.13, z: 0}
+  m_TimeToStationary: 0.5
 --- !u!1 &3328090737018131952
 GameObject:
   m_ObjectHideFlags: 0
@@ -536,7 +546,7 @@ GameObject:
   m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &3328090737018131967
 Transform:

@@ -30,6 +30,7 @@ TagManager:
   - Key
   - Door
   - BossZ
+  - Rocas
   layers:
   - Default
   - TransparentFX
@@ -47,7 +48,7 @@ TagManager:
   - Coins
   - Trampas_bots
   - Boss
-  - 
+  - Barriles
   - 
   - 
   - 
