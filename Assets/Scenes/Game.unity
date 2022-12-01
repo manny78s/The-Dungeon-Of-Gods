@@ -6580,6 +6580,117 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &168671297
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 168671300}
+  - component: {fileID: 168671299}
+  - component: {fileID: 168671298}
+  m_Layer: 0
+  m_Name: estructura 1_14
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!61 &168671298
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 168671297}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1.68, y: 2.05}
+    newSize: {x: 1.68, y: 2.05}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1.68, y: 2.05}
+  m_EdgeRadius: 0
+--- !u!212 &168671299
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 168671297}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: -968958769, guid: fa64a764580c81944a110e9cfeebbd96, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 1.68, y: 2.05}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
+--- !u!4 &168671300
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 168671297}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 448.0495, y: -76.3076, z: 0}
+  m_LocalScale: {x: 0.8835, y: 0.74218225, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 68
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &171366886
 GameObject:
   m_ObjectHideFlags: 0
@@ -50077,7 +50188,7 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 1
+  m_Mass: 2.22
   m_LinearDrag: 0
   m_AngularDrag: 0.05
   m_GravityScale: 1
@@ -77285,20 +77396,31 @@ PolygonCollider2D:
       - {x: 113.40358, y: 32.202873}
       - {x: 121.34392, y: 32.17164}
       - {x: 121.354095, y: 8.54227}
-      - {x: 132.32722, y: 8.558572}
-      - {x: 132.32248, y: 9.771077}
-      - {x: 132.32248, y: 9.771077}
+      - {x: 132.08624, y: 8.558214}
+      - {x: 132.19807, y: 8.636067}
+      - {x: 132.30338, y: 8.783742}
+      - {x: 132.32384, y: 9.425364}
+      - {x: 132.2995, y: 9.510649}
+      - {x: 132.21819, y: 9.702326}
+      - {x: 131.90886, y: 9.777613}
       - {x: 125.952286, y: 9.871733}
       - {x: 125.763245, y: 19.515388}
-      - {x: 132.43546, y: 19.483093}
-      - {x: 132.47116, y: 20.72465}
+      - {x: 132.13445, y: 19.48455}
+      - {x: 132.32832, y: 19.563438}
+      - {x: 132.44365, y: 19.767786}
+      - {x: 132.4627, y: 20.430746}
+      - {x: 132.36281, y: 20.657976}
+      - {x: 132.25488, y: 20.724804}
       - {x: 125.834045, y: 20.729362}
       - {x: 125.79262, y: 32.442432}
       - {x: 177.73563, y: 32.51276}
       - {x: 198.83945, y: 10.887317}
-      - {x: 198.93227, y: 5.044414}
+      - {x: 198.91898, y: 5.8809915}
+      - {x: 199.25171, y: 5.3392835}
+      - {x: 199.59839, y: 5.0434117}
       - {x: 230.21683, y: 4.997346}
       - {x: 230.51144, y: 5.383799}
+      - {x: 233.2558, y: 7.5405893}
       - {x: 233.51428, y: 7.7437334}
       - {x: 247.17029, y: 7.7715807}
       - {x: 247.48907, y: 11.021812}
@@ -77449,13 +77571,19 @@ PolygonCollider2D:
       - {x: 527.16187, y: -0.4894266}
       - {x: 441.8581, y: -0.53181934}
       - {x: 441.88913, y: -4.468379}
-      - {x: 436.41306, y: -4.5241547}
-      - {x: 436.38773, y: -7.8749456}
+      - {x: 436.96375, y: -4.518546}
+      - {x: 436.6004, y: -4.7608204}
+      - {x: 436.41177, y: -5.053809}
+      - {x: 436.46255, y: -7.108404}
+      - {x: 436.68137, y: -7.6639776}
+      - {x: 437.23395, y: -7.8733416}
       - {x: 441.83182, y: -7.7190733}
       - {x: 442.02634, y: -7.9387283}
       - {x: 486.47635, y: -7.9457436}
       - {x: 486.51157, y: -19.990013}
-      - {x: 452.43106, y: -20.082758}
+      - {x: 453.48206, y: -20.035208}
+      - {x: 452.70142, y: -20.468985}
+      - {x: 452.3306, y: -20.8711}
       - {x: 452.27396, y: -23.518782}
       - {x: 450.1369, y: -23.566645}
       - {x: 450.27698, y: -26.533337}
@@ -77468,7 +77596,9 @@ PolygonCollider2D:
       - {x: 465.7674, y: -29.872265}
       - {x: 486.638, y: -30.219528}
       - {x: 486.9592, y: -45.661137}
-      - {x: 463.50528, y: -45.805523}
+      - {x: 464.4774, y: -45.800323}
+      - {x: 463.79645, y: -46.04211}
+      - {x: 463.4434, y: -46.82169}
       - {x: 463.38467, y: -48.740963}
       - {x: 461.44196, y: -48.732796}
       - {x: 461.14822, y: -53.23242}
@@ -77482,16 +77612,16 @@ PolygonCollider2D:
       - {x: 517.92456, y: -66.52652}
       - {x: 518.47864, y: -67.27553}
       - {x: 519.6524, y: -67.78436}
-      - {x: 519.66437, y: -71.11525}
+      - {x: 519.66437, y: -70.97484}
+      - {x: 479.39603, y: -71.044754}
       - {x: 452.92514, y: -71.09071}
-      - {x: 452.9259, y: -70.59694}
-      - {x: 452.44016, y: -70.5807}
       - {x: 452.4461, y: -71.10646}
       - {x: 396.87076, y: -71.12062}
       - {x: 396.84402, y: -63.669704}
       - {x: 405.88477, y: -63.73141}
       - {x: 405.8497, y: -65.93782}
-      - {x: 452.6301, y: -65.78059}
+      - {x: 451.88696, y: -65.62578}
+      - {x: 452.65054, y: -65.30999}
       - {x: 452.57568, y: -63.024525}
       - {x: 449.86856, y: -62.872364}
       - {x: 449.8627, y: -59.144367}
@@ -77499,10 +77629,14 @@ PolygonCollider2D:
       - {x: 447.82254, y: -53.661274}
       - {x: 429.24475, y: -53.789154}
       - {x: 429.54047, y: -43.750664}
-      - {x: 459.35406, y: -43.36472}
-      - {x: 459.38333, y: -41.26112}
+      - {x: 458.25128, y: -43.506863}
+      - {x: 459.04526, y: -43.268208}
+      - {x: 459.24573, y: -42.296852}
+      - {x: 459.1517, y: -41.434837}
+      - {x: 458.65692, y: -41.25979}
       - {x: 456.29752, y: -41.24205}
-      - {x: 456.38016, y: -36.35327}
+      - {x: 456.43283, y: -37.342106}
+      - {x: 455.77274, y: -36.35327}
       - {x: 439.6075, y: -36.219154}
       - {x: 433.5659, y: -36.229477}
       - {x: 433.3189, y: -36.2299}
@@ -77511,10 +77645,14 @@ PolygonCollider2D:
       - {x: 429.39188, y: -19.328106}
       - {x: 445.49652, y: -19.366898}
       - {x: 446.16492, y: -18.444439}
-      - {x: 448.894, y: -18.482536}
+      - {x: 448.2794, y: -18.438257}
+      - {x: 448.48526, y: -17.98159}
+      - {x: 448.96002, y: -17.855572}
       - {x: 449.09647, y: -15.666288}
-      - {x: 447.37598, y: -15.518333}
-      - {x: 447.36432, y: -12.924665}
+      - {x: 447.16235, y: -15.536135}
+      - {x: 447.22363, y: -13.937103}
+      - {x: 446.88367, y: -13.405333}
+      - {x: 446.5131, y: -12.926073}
       - {x: 429.4026, y: -12.954379}
       - {x: 429.45038, y: -0.3791051}
       - {x: 417.15042, y: -0.3875928}
@@ -77549,12 +77687,17 @@ PolygonCollider2D:
       - {x: 139.57474, y: 19.101755}
       - {x: 139.06677, y: 18.618654}
       - {x: 139.13095, y: 15.588609}
-      - {x: 133.20659, y: 15.613674}
-      - {x: 133.22481, y: 14.218535}
+      - {x: 133.54825, y: 15.612228}
+      - {x: 133.30466, y: 15.548295}
+      - {x: 133.20926, y: 15.409046}
+      - {x: 133.22078, y: 14.526974}
+      - {x: 133.32936, y: 14.305669}
+      - {x: 133.58723, y: 14.217467}
       - {x: 139.10297, y: 14.201205}
       - {x: 139.08313, y: 4.0287213}
-      - {x: 133.23538, y: 4.003146}
-      - {x: 133.24333, y: 0.7867284}
+      - {x: 133.35017, y: 3.91705}
+      - {x: 132.90442, y: 3.3046565}
+      - {x: 132.96971, y: 0.7867284}
   m_UseDelaunayMesh: 0
 --- !u!1 &2045354626
 GameObject:
