@@ -68,5 +68,6 @@ public class JefeLife : MonoBehaviour
         ResumeButt.SetActive(false);
         UIpl.SetActive(false);
         PauseMe.SetActive(true);
+        this.gameObject.SetActive(false);
     }
 }
