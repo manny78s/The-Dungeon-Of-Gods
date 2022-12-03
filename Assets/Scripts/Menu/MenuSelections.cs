@@ -11,6 +11,9 @@ public class MenuSelections : MonoBehaviour
     public GameObject UI;
     public GameObject SettingsMenu;
     public GameObject Collec;
+
+    [SerializeField] private GameObject Torch1;
+    [SerializeField] private GameObject Torch2;
     //[SerializeField] private string Scene;
     public void Play(string Scene)
     {
@@ -34,12 +37,16 @@ public class MenuSelections : MonoBehaviour
     {
         UI.SetActive(false);
         Collec.SetActive(true);
+        Torch1.GetComponent<AudioSource>().enabled = false;
+        Torch2.GetComponent<AudioSource>().enabled = false;
     }
 
     public void VolverCollect()
     {
         UI.SetActive(true);
         Collec.SetActive(false);
+        Torch1.GetComponent<AudioSource>().enabled = true;
+        Torch2.GetComponent<AudioSource>().enabled = true;
     }
 
 

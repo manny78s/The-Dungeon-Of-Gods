@@ -44,6 +44,12 @@ public class PLMovement : MonoBehaviour
     [SerializeField] private Vector2 BoxDimencions;
     [SerializeField] LayerMask Ground;
     [SerializeField] LayerMask Plataforms;
+    [SerializeField] private Transform ColPared1;
+    [SerializeField] private Transform ColPared2;
+    [SerializeField] private Vector2 BoxParedCol;
+    [SerializeField] private bool Pared1;
+    [SerializeField] private bool Pared2;
+
 
     [Space]
 
@@ -67,6 +73,9 @@ public class PLMovement : MonoBehaviour
     {
         Gizmos.color = Color.yellow;
         Gizmos.DrawWireCube(ColBase.position,BoxDimencions);
+        Gizmos.color = Color.green;
+        Gizmos.DrawWireCube(ColPared1.position, BoxParedCol);
+        Gizmos.DrawWireCube(ColPared2.position, BoxParedCol);
     }
     void Start()
     {
@@ -108,6 +117,9 @@ public class PLMovement : MonoBehaviour
         {
             KeyImage.material = Act;
         }
+
+        Pared1 = Physics2D.OverlapBox(ColPared1.position, BoxParedCol, 0, Ground);
+        Pared2 = Physics2D.OverlapBox(ColPared2.position, BoxParedCol, 0, Ground);
     }
     private void FixedUpdate()
     {
@@ -130,16 +142,16 @@ public class PLMovement : MonoBehaviour
     void Movement()
     {
         float Hor = Input.GetAxis("Horizontal");
-        PL_Rigid.velocity = new Vector2(Hor*NorSpeed,PL_Rigid.velocity.y);
-
-        /*if(Input.GetButton("Izquierda") && Input.GetKey(KeyCode.LeftShift)|| Input.GetButton("Derecha") && Input.GetKey(KeyCode.LeftShift))
+        if(InGround == true||!Pared1 && !Pared2 && !InGround || Pared1 && InGround||Pared2 && InGround)
         {
-            PL_Rigid.velocity = new Vector2(Hor*RunSpeed,PL_Rigid.velocity.y);
+            PL_Rigid.velocity = new Vector2(Hor * NorSpeed, PL_Rigid.velocity.y);
         }
-        if(Input.GetButton("Izquierda") && Input.GetKey(KeyCode.RightControl) || Input.GetButton("Derecha") && Input.GetKey(KeyCode.RightControl))
+
+        if(Pared1 == true && InGround == false||Pared2 == true && InGround == false)
         {
-            PL_Rigid.velocity = new Vector2(Hor * RunSpeed, PL_Rigid.velocity.y);
-        }*/
+            PL_Rigid.velocity = new Vector2(0, PL_Rigid.velocity.y);
+        }
+
     }
     void AnimAndFlip()
     {
@@ -159,21 +171,6 @@ public class PLMovement : MonoBehaviour
             PL_Anim.SetBool("Caminar", false);
             PL_Anim.SetBool("Correr", false);
         }
-        //Correr Flip and Anim
-        /*if (Input.GetButton("Izquierda") && Input.GetKey(KeyCode.LeftShift) || Input.GetButton("Izquierda") && Input.GetKey(KeyCode.RightControl))
-        {
-            PL_Scale.localScale = new Vector3(-1, 1, 1);
-            PL_Anim.SetBool("Correr", true);
-        }
-        if(Input.GetButton("Derecha") && Input.GetKey(KeyCode.LeftShift) || Input.GetButton("Derecha") && Input.GetKey(KeyCode.RightControl))
-        {
-            PL_Scale.localScale = new Vector3(1, 1, 1);
-            PL_Anim.SetBool("Correr", true);
-        }
-        if (Input.GetKeyUp(KeyCode.LeftShift))
-        {
-            PL_Anim.SetBool("Correr", false);
-        }*/
     }
     //Salto y animacion
     void JumpMovement()
